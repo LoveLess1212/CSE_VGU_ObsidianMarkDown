@@ -1,0 +1,379 @@
+{
+  "strategy": "english-only",
+  "cedictPath": "./cedict_ts.u8",
+  "matchStrategy": "prefix",
+  "fuzzyMatch": true,
+  "matchingWithoutEmoji": true,
+  "treatAccentDiacriticsAsAlphabeticCharacters": true,
+  "maxNumberOfSuggestions": 6,
+  "maxNumberOfWordsAsPhrase": 3,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": true,
+  "firstCharactersDisableSuggestions": ":/^",
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "patternsToSuppressTrigger": [
+    "^~~~.*",
+    "^```.*"
+  ],
+  "showMatchStrategy": true,
+  "showComplementAutomatically": true,
+  "showIndexingStatus": true,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Tab",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": true,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": false,
+  "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "updateInternalLinksOnSave": true,
+  "insertAliasTransformedFromDisplayedInternalLink": {
+    "enabled": false,
+    "beforeRegExp": "",
+    "after": ""
+  },
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
+  "disableOnMobile": false,
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "scheduling": {
+      "scheduling": {
+        "currentFile": {
+          "count": 6,
+          "lastUpdated": 1684777366643
+        }
+      }
+    },
+    "schedulable": {
+      "schedulable": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684766990975
+        }
+      }
+    },
+    "round-robin": {
+      "round-robin": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1684767396511
+        }
+      }
+    },
+    "Priority": {
+      "Priority": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684767167517
+        }
+      }
+    },
+    "Primarily": {
+      "Primarily": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684767177581
+        }
+      }
+    },
+    "Weighted round-robin": {
+      "Weighted round-robin": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684767609523
+        }
+      }
+    },
+    "time slice": {
+      "time slice": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684767647242
+        }
+      }
+    },
+    "Starvation - Deadlock": {
+      "Starvation - Deadlock": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1684769178012
+        }
+      }
+    },
+    "Clock-driven": {
+      "Clock-driven": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684769574331
+        }
+      }
+    },
+    "Preemptive": {
+      "Preemptive": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684772626198
+        }
+      }
+    },
+    "Priority-driven": {
+      "Priority-driven": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1684811182901
+        }
+      }
+    },
+    "Priorities": {
+      "Priorities": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684773329115
+        }
+      }
+    },
+    "scheduling algorithm": {
+      "scheduling algorithm": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684777368261
+        }
+      }
+    },
+    "priority": {
+      "priority": {
+        "currentFile": {
+          "count": 8,
+          "lastUpdated": 1684811413185
+        }
+      }
+    },
+    "Assign": {
+      "Assign": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684777449296
+        }
+      }
+    },
+    "Shortest-Execution-Time-First": {
+      "Shortest-Execution-Time-First": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684777463135
+        }
+      }
+    },
+    "Real-time": {
+      "Real-time": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684777517575
+        }
+      }
+    },
+    "Earliest": {
+      "Earliest": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684777634843
+        }
+      }
+    },
+    "execution": {
+      "execution": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1684778495417
+        }
+      }
+    },
+    "different": {
+      "different": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684778506738
+        }
+      }
+    },
+    "performance": {
+      "performance": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684778548356
+        }
+      }
+    },
+    "static": {
+      "static": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684778612865
+        }
+      }
+    },
+    "predecessors": {
+      "predecessors": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684778912956
+        }
+      }
+    },
+    "successors": {
+      "successors": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1684778995593
+        }
+      }
+    },
+    "effective": {
+      "effective": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1684779084938
+        }
+      }
+    },
+    "deadline": {
+      "deadline": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1684824904204
+        }
+      }
+    },
+    "consistent": {
+      "consistent": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684779076260
+        }
+      }
+    },
+    "constraints": {
+      "constraints": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1684779140613
+        }
+      }
+    },
+    "Inode": {
+      "Inode": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684779092980
+        }
+      }
+    },
+    "monotonic": {
+      "monotonic": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684810567527
+        }
+      }
+    },
+    "Assumptions": {
+      "Assumptions": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684810755334
+        }
+      }
+    },
+    "tasks": {
+      "tasks": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684810887810
+        }
+      }
+    },
+    "Network Layer": {
+      "Network Layer": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684810924027
+        }
+      }
+    },
+    "algorithms": {
+      "algorithms": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684811146210
+        }
+      }
+    },
+    "Dynamic": {
+      "Dynamic": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684811175493
+        }
+      }
+    },
+    "algorithm": {
+      "algorithm": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684812991542
+        }
+      }
+    },
+    "Feasible schedule": {
+      "Feasible schedule": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684813127627
+        }
+      }
+    },
+    "Rate-monotonic": {
+      "Rate-monotonic": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1684813174961
+        }
+      }
+    },
+    "earliest": {
+      "earliest": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1684824901132
+        }
+      }
+    }
+  }
+}

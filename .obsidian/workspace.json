@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "c6e03208f4ae86fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "85e981f452dfa6eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bdc5dd251ede8bf",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "798576719e99e742",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d1731414d4b06e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0dbd50284ed54682",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84ae6ba7cfc33836",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f5e7cda8e8517ed5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#REAL-TIME_SYSTEM",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f550e42a6c3d72ba",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "46b07ac751d887bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f4f809321990b106",
+    "type": "split",
+    "children": [
+      {
+        "id": "93056fc82a181717",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "193eeaca4aefefaf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b919973f54c3104b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8dcac043bda04f36",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "c47d2b934bb13e86",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "225972f2ba0bde89",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "canvas:Create new canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "798576719e99e742",
+  "lastOpenFiles": [
+    "24.05.2023.md",
+    "202305241350.md",
+    "Realtime System/Weighted round-robin.md",
+    "Realtime System/slack time.md",
+    "Realtime System/Task states.md",
+    "Realtime System/EDF.md",
+    "Realtime System/Deadline-monotonic.md",
+    "Realtime System/Clock-driven.md",
+    "Realtime System/Basic Scheduling.md",
+    "SWED Exam.md",
+    "Thing i'm missed.md",
+    "UI Prototyping.md",
+    "virtual memory.md",
+    "PCNA document.md",
+    "Architecture design Problem 1 v3.pdf",
+    "DATABASES/Database.md",
+    "DATABASES/Database cheatsheet.md",
+    "Realtime System/Dynamic priority algorithm.md",
+    "Realtime System/LST.md",
+    "Realtime System/Rate monotonic & Deadline monotonic.md",
+    "Realtime System/Feasible schedule.md",
+    "Realtime System/Rate-monotonic.md",
+    "Realtime System/Priority-driven scheduler.md",
+    "Realtime System/Effective release times and Deadline.md",
+    "Realtime System/effective deadline.md",
+    "Realtime System/effective release time.md",
+    "Realtime System/Priority-based scheduling.md",
+    "Untitled.canvas",
+    "Image/Pasted image 20230522233844.png",
+    "Image/Pasted image 20230522223439.png",
+    "Image/Pasted image 20230522223055.png",
+    "Image/Pasted image 20230522214820.png",
+    "Realtime System",
+    "Image/Pasted image 20230418100506.png",
+    "Image/Pasted image 20230409164149.png",
+    "Image/Pasted image 20230409164140.png",
+    "Image/Pasted image 20230409163245.png",
+    "Image/Pasted image 20230408221502.png",
+    "Image/Pasted image 20230408221447.png",
+    "Statistic",
+    "Sequence diagram in 4+1 viewmodel..pdf",
+    "Sequence diagram in 4+1 viewmodel v2.pdf",
+    "Architecture design Problem 1.pdf",
+    "Untitled 1.canvas",
+    "CTF"
+  ]
+}

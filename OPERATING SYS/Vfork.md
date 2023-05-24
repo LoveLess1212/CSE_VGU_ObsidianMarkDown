@@ -1,0 +1,2 @@
+vfork is a variant of fork, which does not copy the address space of the parent process, and therefore causes less overhead than fork. Using vfork is useful if the child process is to be replaced by another process immediately after its creation. In this course vfork is not further discussed
+#OPERATING_SYSTEM 

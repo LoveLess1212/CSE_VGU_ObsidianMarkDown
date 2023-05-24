@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Operating system",
+      "path": "OPERATING SYS/OPERATING SYSTEM.md"
+    },
+    {
+      "type": "file",
+      "title": "Databases",
+      "path": "DATABASES/DATABASES.md"
+    }
+  ]
+}
