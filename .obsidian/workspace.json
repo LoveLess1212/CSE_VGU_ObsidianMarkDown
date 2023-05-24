@@ -18,11 +18,13 @@
             }
           },
           {
-            "id": "798576719e99e742",
+            "id": "4ea388f629a3c991",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "Architecture design Problem 1 v3.pdf"
+              }
             }
           }
         ],
@@ -100,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Architecture design Problem 1 v3.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +129,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Architecture design Problem 1 v3.pdf"
+              }
             }
           },
           {
@@ -143,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Architecture design Problem 1 v3.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,35 +174,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "798576719e99e742",
+  "active": "4ea388f629a3c991",
   "lastOpenFiles": [
+    "FRACTALs.md",
+    "HTML.md",
+    "SWED Exam.md",
+    "Thing i'm missed.md",
+    "VUE js.md",
     "24.05.2023.md",
+    "Architecture design Problem 1 v3.pdf",
+    "CPT NETWORK/PCNA document.md",
+    "virtual memory.md",
+    "UI Prototyping.md",
+    "Realtime System/Real-Time System.md",
+    "Realtime System/Rate-monotonic.md",
+    "Realtime System/Rate monotonic & Deadline monotonic.md",
+    "Realtime System/Priority-driven scheduler.md",
+    "Realtime System/priority queue.md",
+    "Realtime System/Feasible schedule.md",
+    "Realtime System/Effective release times and Deadline.md",
+    "Realtime System/effective release time.md",
+    "Realtime System/effective deadline.md",
+    "Realtime System/Clock-driven.md",
+    "Realtime System/Basic Scheduling.md",
+    "CPT NETWORK/Exercise Sheet 3 Computer network.md",
+    "Exercise Sheet 4 Computer Network.md",
     "202305241350.md",
     "Realtime System/Weighted round-robin.md",
     "Realtime System/slack time.md",
     "Realtime System/Task states.md",
-    "Realtime System/EDF.md",
-    "Realtime System/Deadline-monotonic.md",
-    "Realtime System/Clock-driven.md",
-    "Realtime System/Basic Scheduling.md",
-    "SWED Exam.md",
-    "Thing i'm missed.md",
-    "UI Prototyping.md",
-    "virtual memory.md",
-    "PCNA document.md",
-    "Architecture design Problem 1 v3.pdf",
-    "DATABASES/Database.md",
-    "DATABASES/Database cheatsheet.md",
-    "Realtime System/Dynamic priority algorithm.md",
-    "Realtime System/LST.md",
-    "Realtime System/Rate monotonic & Deadline monotonic.md",
-    "Realtime System/Feasible schedule.md",
-    "Realtime System/Rate-monotonic.md",
-    "Realtime System/Priority-driven scheduler.md",
-    "Realtime System/Effective release times and Deadline.md",
-    "Realtime System/effective deadline.md",
-    "Realtime System/effective release time.md",
-    "Realtime System/Priority-based scheduling.md",
     "Untitled.canvas",
     "Image/Pasted image 20230522233844.png",
     "Image/Pasted image 20230522223439.png",
