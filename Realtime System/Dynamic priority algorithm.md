@@ -6,4 +6,5 @@
 	* **First in, first out**(FIFO): Job queue is first-in-first-out by release time
 	* **Last in first out**(LIFO): job queue is last-in-first-out by release time
 * Focus on EDF as commonly used example
-* 
+
+#REAL-TIME_SYSTEM 

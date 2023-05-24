@@ -5,3 +5,5 @@
 * **Special case:** when job parameters are known a priori, schedule can be pre-computed off-line, and stored as a table (table-driven schedulers)
 	* Scheduling overhead at run-time can be minimized
 	* Simple and straight-forward, not flexible
+
+#REAL-TIME_SYSTEM 
