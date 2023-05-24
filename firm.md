@@ -1,0 +1,2 @@
+A _[firm](app://obsidian.md/firm)_ real-time system is one in which **few missed deadlines** will not lead to total failure but missing more than a few may lead to complete and catastrophic system failure
+#REAL-TIME_SYSTEM 

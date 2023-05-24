@@ -4,7 +4,7 @@
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 14701199
       }
+    },
+    {
+      "query": "tag:#REAL-TIME_SYSTEM",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.0518592400955516,
+  "scale": 0.06455530168358364,
   "close": false
 }
