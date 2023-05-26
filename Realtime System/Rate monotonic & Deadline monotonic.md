@@ -3,9 +3,9 @@
 	* [[Rate-monotonic]]
 	* Deadline monotonic
 # Assumptions 
-* [[Priority-driven]] scheduling of periodic tasks on a *single processor*
+* [[Priority-driven]] scheduling of [[periodic tasks]] on a *single processor*
 * Assume a restricted periodic task model:
-	* A fixed number of independent periodic tasks exist
+	* A fixed number of independent [[periodic tasks]] exist
 		* Are ready for execution as soon as they are released
 		* Can be pre-empted at any time
 		* Never suspend themselves
@@ -22,7 +22,7 @@
 	* It does not pre-compute a schedule of tasks/jobs: instead *assigns priorities to jobs when released*, places them on a run queue in priority order
 	* When pre-emption is allowed, a scheduling decision is made whenever a job is released or completed
 	* At each [[scheduling decision time]], the scheduler updates the run queues and executes the job at the head of the queue
-# [[Rate-monotonic]] (RM algorithm)
+# [[Rate-monotonic]] (Date: 24-05-2023 algorithm)
 * **Best known fixed-priority algorithm** is rate monotonic scheduling
 * Assigns *priorities* to tasks based on their *[[period]]*
 	* **The shorter the [[period]], the higher the priority**
