@@ -1,0 +1,2 @@
+- Makes request for a remote object
+- Invokes methods on it

@@ -1,0 +1,4 @@
+- [[Remote Method Invocation]] (RMI)
+- It allows a chient to invoke remote object implementation using the network to the server and invoke member methods on that object.
+- RMI will take care of serializing the object and sending the object byte code to the server to run the code dynamically.
+- RMI is a Java-specific system it cannot run on other programming languages.

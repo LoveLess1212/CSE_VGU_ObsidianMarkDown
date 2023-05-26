@@ -1,0 +1,2 @@
+- Manages remote objects
+- Makes their references available for clients
