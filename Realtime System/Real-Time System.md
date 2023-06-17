@@ -104,6 +104,74 @@
 * We will usually assume the relative deadline for the jobs in a task is equal to the period of the task
 	* It can sometimes be shorter than the period, to allow slack time
 * Many useful, real-world, systems fir this model; and it is easy to reason about such periodic tasks
-
-
+# Sporadic  & Aperiodic 
+* Many real-time systems are required to respond to external events
+* the jobs resulting from such events are sporadic or aperiodic jobs
+	* A *sporadic job* has a hard deadline
+	* An *Aperiodic job* has either a soft deadline or no deadline
+* The release time for sporadic or aperiodic jobs can be modelled as a random variable with some probability distribution, A(x)
+	* A(x) gives the probability that the release time of the job is not later than x
+## Precedence constraints and Dependencies
+* The jobs in a task, wheter periodic, aperiodic or sporadic, maybe constrained to execute in a particular order
+	* This is known as a **Precedence constraints** 
+	* A job $J_i$ is a predecessor of another job $J_k$ (and $J_k$ is a successor of $J_i$) if $J_k$ cannot begin execution until the execution of $J_i$ completes
+		* Denote this by saying $J_{i}< J_k$
+	* $J_i$ is an immediate predecessor of $J_k$ if $J_{i}<J_k$ and there is no other job $J_l$ such that $J_i<J_l<J_k$ 
+	* $J_j$ and $J_k$ are independent when neither $J_i<J_k$ nor $J_k>J_i$
+* A job with a precedence constraint becomes ready for execution once when its release time has passed and when all predecessors have complete
+## Processor
+* A job executes - or is executed by the operating system - on a processor and may depend on some resources
+	* A processor, P, is an active component on which jobs scheduled
+	* Examples:
+		* Threads scheduled on a CPU
+		* Data scheduled on a transmission link 
+		* Read/write requests scheduled to a disk
+		* Transactions scheduled on a database server
+	* Each processor has a speed attribute which determines the rate of progress a job makes toward completion
+		* May represent instructions-per-second for a CPU, bandwidth of a network, etc.
+	* Two processors are of the same type if they are functionally identical and can be used interchangeably
+## Resource
+* A resource, R, is a passive entity upon which jobs may depend
+	* Examples:
+		* Memory
+		* Sequence numbers
+		* mutexes
+		* Database locks
+	* Resources have different types and sizes, but do not have a speed attribute
+	* Resources are usually reusable, and are not consumed by use
+## The use of resources
+* If the system contains $p$ (rho) types of resource, this means:
+	* There are $p$ different types of serially reusable resources
+	* There are one or more units of each types of resource, only one job can use each unit at once
+	* A job must obtain a unit of a needed resource, use it, then release it
+* A resource is plentiful if no job is ever prevented from executing by the unavailability of units of the resource
+	* Jobs never block when attempting to obtain a unit of a plentiful resource
+	* We typically omit such resources from out discussion, since they don't impact performance or correctness
+## Functional parameters
+* Jobs may have priority, and in some cases may be interrupted by a higher priority job
+	* A job is preemptable if its execution can be interrupted in this manner
+	* A job is non-preemptable if it must run to completion once started
+		* Many preemptable jobs have periods during which they cannot be preempted, for example when accessing certain resources
+	* The ability to preempt a job impacts the scheduling algorithm
+	* The context switch time is the time taken to switch between jobs
+		* Forms an overhead that must be accounted for when scheduling jobs
+* *Response to missing deadline can vary*
+* Some jobs have optional parts, that can be omitted to save time(at expense of a poorer quality result)
+* Usefulness of late results varies, some applications tolerate some delay, others do not
+## Scheduling
+* Jobs scheduled and allocated resources according to a chosen set of scheduling algorithms and resource access control protocols
+	* Scheduler implements these algorithm
+* A scheduler specifically assigns jobs to processors
+* A schedule is an assignment of all jobs in the system on the available processors
+* A valid schedule satisfies the following conditions:
+	* Every processor is assigned to at most one job at any time
+	* Every job is assigned at most one processor at any time
+	* No job is scheduled before its release time
+	* The total amount of processor time assigned to every job is equal to its maximum or actual execution time
+	* All the precedence and resource usage constraints are satisfied
+* A valid schedule is also a feasible schedule of every job meets its timing contraints.
+	* Miss rate is the percentage of jobs that are executed but completed too late
+	* Loss rate is the percentage of jobs that are not executed at all
+* A hard real time scheduling algorithm is optimal if the algorithm always produces a feasible schedule if the given set of jobs has feasible schedules
+* Many scheduling algorithms exist: Main focus of this module is understanding real-time scheduling
 #REAL-TIME_SYSTEM
