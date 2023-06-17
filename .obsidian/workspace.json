@@ -18,11 +18,16 @@
             }
           },
           {
-            "id": "86bdaca028e54d03",
+            "id": "ada3acd9fee1ed86",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Realtime System/Resource access control protocols.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -55,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#REAL-TIME_SYSTEM",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Realtime System/Resource access control protocols.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Realtime System/Resource access control protocols.md"
+              }
             }
           },
           {
@@ -143,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Realtime System/Resource access control protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,8 +177,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86bdaca028e54d03",
+  "active": "ada3acd9fee1ed86",
   "lastOpenFiles": [
+    "Basic priority ceiling protocol.md",
+    "Image/Pasted image 20230618015221.png",
+    "Realtime System/Resource access control protocols.md",
+    "Priority inheritance protocol.md",
+    "Non-preemptable Critical Sections - NPCS.md",
+    "Time anomalies.md",
+    "Deadlock.md",
+    "Priority inversion.md",
+    "OPERATING SYS/Critical Sections.md",
+    "locks.md",
+    "Image/Pasted image 20230617191648.png",
+    "Image/Pasted image 20230617182309.png",
+    "Image/Pasted image 20230617175623.png",
+    "Image/Pasted image 20230617174118.png",
+    "Image/Pasted image 20230617173652.png",
+    "Image/Pasted image 20230617173403.png",
+    "Image/Pasted image 20230617171428.png",
+    "Realtime System/Real-Time System.md",
     "SOFTWARE ENGINEERING/Undefied modelling language..md",
     "CTF/Introduce.md",
     "CTF/Architecture design Problem 1.md",
@@ -182,34 +209,15 @@
     "Realtime System/slack time.md",
     "Realtime System/Scheduling decision time.md",
     "Realtime System/Rate-monotonic.md",
-    "Realtime System/Real-Time System.md",
     "firm.md",
     "Realtime System/Priority-driven scheduler.md",
     "Realtime System/Basic Scheduling.md",
-    "Realtime System/Clock-driven.md",
-    "Realtime System/Deadline-monotonic.md",
-    "Realtime System/Dynamic priority algorithm.md",
-    "Realtime System/effective deadline.md",
-    "Realtime System/Effective release times and Deadline.md",
-    "Realtime System/effective release time.md",
-    "Realtime System/Abbreviation/LST.md",
     "Realtime System/Abbreviation",
-    "Realtime System/Abbreviation/EDF.md",
     "Architecture design Problem 1 v3.pdf",
-    "FRACTALs.md",
-    "HTML.md",
     "Untitled.canvas",
     "Image/Pasted image 20230522233844.png",
     "Image/Pasted image 20230522223439.png",
-    "Image/Pasted image 20230522223055.png",
-    "Image/Pasted image 20230522214820.png",
     "Realtime System",
-    "Image/Pasted image 20230418100506.png",
-    "Image/Pasted image 20230409164149.png",
-    "Image/Pasted image 20230409164140.png",
-    "Image/Pasted image 20230409163245.png",
-    "Image/Pasted image 20230408221502.png",
-    "Image/Pasted image 20230408221447.png",
     "Statistic",
     "Sequence diagram in 4+1 viewmodel..pdf",
     "Sequence diagram in 4+1 viewmodel v2.pdf",

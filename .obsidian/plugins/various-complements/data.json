@@ -146,8 +146,8 @@
     "Priority-driven": {
       "Priority-driven": {
         "internalLink": {
-          "count": 5,
-          "lastUpdated": 1684811182901
+          "count": 6,
+          "lastUpdated": 1687005631898
         }
       }
     },
@@ -162,16 +162,16 @@
     "scheduling algorithm": {
       "scheduling algorithm": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1684777368261
+          "count": 2,
+          "lastUpdated": 1687005642506
         }
       }
     },
     "priority": {
       "priority": {
         "currentFile": {
-          "count": 8,
-          "lastUpdated": 1684811413185
+          "count": 10,
+          "lastUpdated": 1687024666240
         }
       }
     },
@@ -482,8 +482,8 @@
     "Periodic tasks": {
       "Periodic tasks": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1685089092106
+          "count": 3,
+          "lastUpdated": 1687003308924
         }
       }
     },
@@ -492,6 +492,70 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1685089143018
+        }
+      }
+    },
+    "Fading": {
+      "Fading": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1686994425897
+        }
+      }
+    },
+    "Critical Sections": {
+      "Critical Sections": {
+        "internalLink": {
+          "count": 9,
+          "lastUpdated": 1687010237506
+        }
+      }
+    },
+    "Resource access control protocols": {
+      "Resource access control protocols": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1687001902316
+        }
+      }
+    },
+    "undesirable": {
+      "undesirable": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1686997725187
+        }
+      }
+    },
+    "Protocol": {
+      "Protocol": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1687007727249
+        }
+      }
+    },
+    "assigned": {
+      "assigned": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1687007788614
+        }
+      }
+    },
+    "Basic priority ceiling protocol": {
+      "Basic priority ceiling protocol": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1687019572426
+        }
+      }
+    },
+    "priority-inheritance": {
+      "priority-inheritance": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687027336321
         }
       }
     }
