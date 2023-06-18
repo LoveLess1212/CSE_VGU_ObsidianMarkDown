@@ -3,9 +3,9 @@
 	* [[Rate-monotonic]]
 	* Deadline monotonic
 # Assumptions 
-* [[Priority-driven]] scheduling of [[periodic tasks]] on a *single processor*
+* [[Priority-driven]] scheduling of [[Periodic tasks]] on a *single processor*
 * Assume a restricted periodic task model:
-	* A fixed number of independent [[periodic tasks]] exist
+	* A fixed number of independent [[Periodic tasks]] exist
 		* Are ready for execution as soon as they are released
 		* Can be pre-empted at any time
 		* Never suspend themselves
