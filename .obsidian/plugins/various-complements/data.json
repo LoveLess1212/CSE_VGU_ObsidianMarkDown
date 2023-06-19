@@ -558,6 +558,78 @@
           "lastUpdated": 1687027336321
         }
       }
+    },
+    "IT Security": {
+      "IT Security": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1687079113200
+        }
+      }
+    },
+    "unauthorized": {
+      "unauthorized": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1687062344640
+        }
+      }
+    },
+    "modification": {
+      "modification": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687062346356
+        }
+      }
+    },
+    "Availability": {
+      "Availability": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687062349551
+        }
+      }
+    },
+    "confidentiality": {
+      "confidentiality": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687072503547
+        }
+      }
+    },
+    "integrity": {
+      "integrity": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687072507354
+        }
+      }
+    },
+    "discover": {
+      "discover": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687077143627
+        }
+      }
+    },
+    "vulnerabilities": {
+      "vulnerabilities": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1687079803562
+        }
+      }
+    },
+    "implementation": {
+      "implementation": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687079159911
+        }
+      }
     }
   }
 }
