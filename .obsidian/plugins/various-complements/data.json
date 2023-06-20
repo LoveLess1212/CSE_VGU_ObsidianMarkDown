@@ -630,6 +630,126 @@
           "lastUpdated": 1687079159911
         }
       }
+    },
+    "Cryptography": {
+      "Cryptography": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1687195229583
+        }
+      }
+    },
+    "authentication": {
+      "authentication": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687157662746
+        }
+      }
+    },
+    "Encryption": {
+      "Encryption": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1687158224733
+        }
+      }
+    },
+    "subtitution": {
+      "subtitution": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687157748671
+        }
+      }
+    },
+    "substitution": {
+      "substitution": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1687157817597
+        }
+      }
+    },
+    "transposition": {
+      "transposition": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687157807552
+        }
+      }
+    },
+    "public": {
+      "public": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687157853268
+        }
+      }
+    },
+    "cryptography": {
+      "cryptography": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1687158017027
+        }
+      }
+    },
+    "compromise": {
+      "compromise": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687158040769
+        }
+      }
+    },
+    "methods": {
+      "methods": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687158062375
+        }
+      }
+    },
+    "Substitution": {
+      "Substitution": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687158068299
+        }
+      }
+    },
+    "Brute-Force-Attack": {
+      "Brute-Force-Attack": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687158234191
+        }
+      }
+    },
+    "probability": {
+      "probability": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687163385165
+        }
+      }
+    },
+    "password": {
+      "password": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687194550457
+        }
+      }
+    },
+    "message": {
+      "message": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687195299730
+        }
+      }
     }
   }
 }
