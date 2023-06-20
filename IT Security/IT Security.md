@@ -60,5 +60,12 @@
 	* Eliminate vulnerability
 	* Shut down complete IT-infrastructure
 	* Choice depends on aims of the decision maker
-	* If purely economic: Choose alternative with lowest ex
+	* If purely economic: Choose alternative with lowest expected mean cost
+	* Practical problem: Occurrence probabilities and consequences are different to guess or estimate
+# IT-Security as a Process
+- Ensuring IT Security is not a singulary event:
+	- New risks and vulnerabilities
+	- New systems
+	- Organizational changes
+- IT-Security is a process and must be continually checked and adapted
 #IT_SECURITY
