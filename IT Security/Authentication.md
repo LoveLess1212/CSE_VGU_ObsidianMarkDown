@@ -26,3 +26,4 @@
 	* Public key is used for validation
 * Important practical improvement:
 	* Only a "fingerprint" of the message is digitally signed, not complete message 7kp['']
+#IT_SECURITY 

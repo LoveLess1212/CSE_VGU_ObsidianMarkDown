@@ -70,4 +70,4 @@
         * 0110 -> 1110 XOR 1000 -> 0110
         * we have the decryption 0001 1101 0011 1000 0110
     * For output feedback mode with n=1 what would be the encryption for 0010 1111 1001 0100 1100 with IV 1101 ?
-        * 
+#IT_SECURITY 

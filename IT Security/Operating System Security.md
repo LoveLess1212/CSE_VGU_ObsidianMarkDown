@@ -10,3 +10,4 @@
 * Resource Manager
 	* Allocates resources to different uzsers, processes
 		* Space, CPU Time,
+#IT_SECURITY 
