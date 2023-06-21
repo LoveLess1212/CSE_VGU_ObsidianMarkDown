@@ -750,6 +750,14 @@
           "lastUpdated": 1687195299730
         }
       }
+    },
+    "components": {
+      "components": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687279322486
+        }
+      }
     }
   }
 }
