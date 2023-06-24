@@ -1,4 +1,4 @@
-- Cryptography
+- [[IT Security/Cryptography|Cryptography]]
 - Plain text
 - Cipher
 - Encryption

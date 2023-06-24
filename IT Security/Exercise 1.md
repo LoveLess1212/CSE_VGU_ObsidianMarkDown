@@ -4,7 +4,7 @@
 * Confidentiality: Only authorized persons can access information
 * Integrity: Information is not changed by unauthorized persons
 * Availability: Information is available to authorized persons
-* Authenticity and authentication: Unambiguous identification of the sender and recipient of information
+* Authenticity and [[authentication]]: Unambiguous identification of the sender and recipient of information
 * Non-repudiation: The sender of information cannot deny having sent it
 * Authorization: Access to resources is limited to certain group of (authenticated) users
 3. **What are passive and active attacks and why is the distinction between them helpful in practice?**

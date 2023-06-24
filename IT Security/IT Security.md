@@ -18,7 +18,7 @@
 
 * Availability 
 	* Resources and Services are available for legitimate users
-* Authenticity and authentication
+* Authenticity and [[authentication]]
 	* Unambiguous identification of the sender of information or a communication peer
 * Nonrepudiation
 	* Ability to prove that a given message was sent and by whom to a third party not involved in communication

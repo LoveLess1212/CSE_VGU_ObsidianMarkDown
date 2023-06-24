@@ -667,15 +667,55 @@
       "components": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1687235812510
+          "lastUpdated": 1687279322486
         }
       }
     },
-    "components": {
-      "components": {
+    "Misconfigurations": {
+      "Misconfigurations": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1687322737197
+        }
+      }
+    },
+    "configuration": {
+      "configuration": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1687279322486
+          "lastUpdated": 1687322787931
+        }
+      }
+    },
+    "Backdoors": {
+      "Backdoors": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1687322955574
+        }
+      }
+    },
+    "Backdoor": {
+      "Backdoor": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1687323064394
+        }
+      }
+    },
+    "vulnerable": {
+      "vulnerable": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1687323265617
+        }
+      }
+    },
+    "Command Injection": {
+      "Command Injection": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1687323275063
         }
       }
     }
