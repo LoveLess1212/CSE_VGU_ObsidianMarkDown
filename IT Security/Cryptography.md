@@ -1,5 +1,5 @@
 ## Intro
-* [[DISTRIBUTED SYSTEM/Cryptography|Cryptography]] is the study of mathematical techniques related to aspects of information security such as confidentiality, data integrity, entity authentication, and data origin authentication 
+* [[DISTRIBUTED SYSTEM/Cryptography|Cryptography]] is the study of mathematical techniques related to aspects of information security such as confidentiality, data integrity, entity [[authentication]], and data origin [[authentication]] 
 ## Classical Encryption Methods
 * Substitution
 	* e.g., mono-alphabetical substitution 
