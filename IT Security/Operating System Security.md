@@ -8,6 +8,7 @@
 	* Hides complicated details from users and applications which otherwise had to be dealt with 
 	* Provides Virtual Machine which is much easier to use
 * Resource Manager
-	* Allocates resources to different uzsers, processes
-		* Space, CPU Time,
+	* Allocates resources to different users, processes
+		* Space, CPU Time,....
+
 #IT_SECURITY 

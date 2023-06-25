@@ -667,15 +667,15 @@
       "components": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1687235812510
+          "lastUpdated": 1687279322486
         }
       }
     },
-    "components": {
-      "components": {
+    "fingerprint": {
+      "fingerprint": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1687279322486
+          "count": 2,
+          "lastUpdated": 1687314798404
         }
       }
     }

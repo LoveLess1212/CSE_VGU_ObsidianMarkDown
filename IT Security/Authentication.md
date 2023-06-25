@@ -26,4 +26,11 @@
 	* Public key is used for validation
 * Important practical improvement:
 	* Only a "fingerprint" of the message is digitally signed, not complete message 7kp['']
+## Cryptographic Hash Functions
+- Compute characteristic patter ("fingerprint ") of fixed length for each message
+- Mostly 128 or 256 bits
+- It should be impossible
+	- To find a message yielding a given hash value
+	- Tod find two messages with the same hash value
+- Widely used algorithms: MD5 and SHA
 #IT_SECURITY 
