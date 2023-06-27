@@ -130,8 +130,8 @@
     "Protocol": {
       "Protocol": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1687761764283
+          "count": 1,
+          "lastUpdated": 1687007727249
         }
       }
     },
@@ -279,35 +279,19 @@
         }
       }
     },
-    "Backdoor": {
-      "Backdoor": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1687753270075
-        }
-      }
-    },
-    "Connection-oriented": {
-      "Connection-oriented": {
+    "connection": {
+      "connection": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1687762010285
+          "lastUpdated": 1687713580071
         }
       }
     },
-    "information": {
-      "information": {
+    "InputStreamReader": {
+      "InputStreamReader": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1687769149529
-        }
-      }
-    },
-    "Manipulation of a Message": {
-      "Manipulation of a Message": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1687834183269
+          "lastUpdated": 1687872307885
         }
       }
     }

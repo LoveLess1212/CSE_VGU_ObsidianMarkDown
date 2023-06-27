@@ -50,8 +50,11 @@
 - Additionally, java.net includes the **ServerSocket class**, which implements a socket that servers can use to listen for and accept connections to clients.
 - There are two types of IP traffic: **TCP** (Transmission Control Protocol) and **UDP** (Universal Datagram Protocol). TCP is a connection-oriented protocol while UDP is a connectionless protocol.
 ## Preliminaries
-### Java exception
-- An exception is an **event** that occurs **during the execution** of a program that disrupts the normal flow of instructions.
-	- E.g., NumberFormatException, ArrayIndexOutOfBoundsException, FileNotFoundException, IOException
-- How to use: two ways
-![[Pasted image 20230626003258.png]]
+- [[Java exception]]
+- [[Stream]]
+- [[ServerSocket class]]
+- [[Socket class]]
+- [[TCP]]
+- [[UDP]]
+# [[Multicast]]
+#DISTRIBUTED_SYSTEM 

@@ -1,0 +1,19 @@
+- **Socket(String host, int port)**
+	- Creates a stream socket and connects it to the specified port number on the named host.
+	- E.g., Socket mySocket = new Socket("localhost", 4444); Socket antherSck = new Socket("143.52.51.215", 6666)
+- **void close()**
+	- Closes this socket
+- **InputStream getInputStream()**
+	- Returns as input stream for this socket
+- **OutputStream getOutputStream()**
+	- Return an  output stream for this socket
+- **InetAddress getInetAddress()**
+	- Returns the address to which the socket is connected.
+- **InetAddress getLocalAddress()**
+	- Gets the local address to which the socket is bound.
+- **int getLocalPort()**
+	- Returns the local port to which this socket is bound.
+- **int getPort()**
+	- Returns the remote port to which this socket is connected.
+- **String toString()**
+	- Converts this socket to a String

@@ -1,0 +1,12 @@
+- **ServerSocket(int port)**
+		- port is an integer > 1024
+- **public Socket accept() throws IOException**
+		- Listens for a connection to be made to this socket and accepts it. The method blocks until a connection is made.
+- **public void close() throws IOException**
+	- Closes the socket
+- **public InetAddress getInetAddress()**
+		- Returns the address to which this socket is connected, or null if the socket is not yet connected.
+- **public int getLocalPort()**
+		- Returns the port on which this socket is listening
+- **public String toString()**
+		- Returns the implementation address and implementation port of this socket as a String
