@@ -1,6 +1,9 @@
 > [!Definition]
 > IT Security is the protection of information and information systems against unauthorized access and modification and availability of information system services for legitimate users, including measures to thwart, discover or log threats.
 > Protection against unauthorized  access must be ensured during storage, processing or in transit
+
+Protect **Information & Information system** against unauthorized access and modification - Ensure availability for legitimate users, including measures to thwart, discover or log threats.
+this protection must be ensured during Storage - processing - or in transit
 # Why
 * [[IT Security]] is an important economic factor
 * Data is mostly stored and retrieved and processed electronically
@@ -14,7 +17,7 @@
 > [! Diff on confidentiality and integrity ]\
 > News on website
 > file on gg drive
-
+ 
 
 * Availability 
 	* Resources and Services are available for legitimate users

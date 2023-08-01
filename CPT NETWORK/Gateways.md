@@ -14,3 +14,4 @@
 		* ![[Pasted image 20221220220505.png]]
 		* 
 #COMPUTER_NETWORK 
+ 

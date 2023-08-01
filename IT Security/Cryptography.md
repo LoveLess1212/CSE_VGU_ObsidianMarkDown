@@ -17,7 +17,7 @@
 * Our focus on public methods only
 ## A Word of Caution
 * [[DISTRIBUTED SYSTEM/Cryptography|Cryptography]], i.e. the encryption methods themselves, is a tool that helps to secure networks and systems
-* The protocols, applications and environments using cryptography might have conceptual weaknesses, implementation bugs or other caveats that could allow to compromise the protection, e.g.,
+* The protocols, applications and environments using [[DISTRIBUTED SYSTEM/Cryptography|cryptography]] might have conceptual weaknesses, implementation bugs or other caveats that could allow to compromise the protection, e.g.,
 	* By evading the cryptographic system
 	* by breaking the cryptographic system
 * Using a strong cryptosystem does not guarantee security
