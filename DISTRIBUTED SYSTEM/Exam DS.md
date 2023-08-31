@@ -46,7 +46,7 @@ Structure:
 	* A P2P architecture is always more efficient than a centralized architecture. ? agree?? justify your ans
 	* Some could computing services like AWS and Azure provide their end users with Virtual machine rather than allocated physical machine. Doing so bings at least three benefits to the provicers. Explain what these 3 benefits are. ?
 * 4. Complete ans
-	* Given a multicast program as below. Fill in the blank 
+	* Given a [[multicast]] program as below. Fill in the blank 
 ```java
 //Mọi người tự coi lại bài UDP rồi bỏ parameter ra nha :') khum thi hồi t làm xong để t chuyueenr qua cho
 

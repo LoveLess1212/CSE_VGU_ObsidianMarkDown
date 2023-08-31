@@ -13,7 +13,7 @@
     * Confidentiality: Against unauthorized access
     * Integrity: Against unauthorized modification
     * Availability: Resources and services are available for legit users
-    * Authenticity and authentication:  Explicit identification of the sender of info or a communication peer
+    * Authenticity and [[authentication]]:  Explicit identification of the sender of info or a communication peer
 * **What are passive and active attack?Why those need to be distinct**
      * Passive
           * Attacker doesn't actively participate
@@ -41,7 +41,7 @@
        * Root `causes of  such issues are investigated`, `found and eliminated` by modifying the  process. Risk is `re-evaluated`. 
        * At the end of the actions in this phase,  the `process has better instructions, standards or goals`. `Planning for  the next cycle` can proceed with a `better base-line`. Work in the `next do phase` should `not create recurrence` of the identified issues; if it does, then the action was not effective.
 * **Difference between nonrepudiation and authenticity**
-  * Authentication verifies who you are (User-ID) while Non-Repudiation verifies what you did (e.g Sending a message).
+  * [[Authentication]] verifies who you are (User-ID) while Non-Repudiation verifies what you did (e.g Sending a message).
   * Authenticity is about one party (say, Alice) interacting with another (Bob) to convince Bob that some data really comes from Alice.
   * Non-repudiation is about Alice showing to Bob a proof that some data really comes from Alice, such that not only Bob is convinced, but Bob also gets the assurance that he could show the same proof to Charlie, and Charlie would be convinced, too, even if Charlie does not trust Bob.
 
@@ -105,31 +105,31 @@
    * ![](img/CM2.PNG)
 
 # Lec3
-## Authentication
+## [[Authentication]]
 
-* **Term of "Authentication" and "Authencity". Factors for it? What is two-factor-authentication**
+* **Term of "[[Authentication]]" and "Authencity". Factors for it? What is two-factor-[[authentication]]**
     	* Authencity: The quality of being genuine or not corrupted from the original. 
-    * Authentication: something which validates or confirms the authenticity of something 
+    * [[Authentication]]: something which validates or confirms the authenticity of something 
     * What you know (Password), What you have (Token), What you are (Biometry)
-    * 2-Factor-authentication: provide multiple proof of your identification to get the permission to access.
-* **Name and explain on which points the security of password-based authentication schemes depends.**
+    * 2-Factor-[[authentication]]: provide multiple proof of your identification to get the permission to access.
+* **Name and explain on which points the security of password-based [[authentication]] schemes depends.**
 
      * Size of password domain, choice of password and password policies
      * Security of strong passwords
      * Security when entering/transmitting passwords.
 * **How secure password should be chosen?(Not sure)**
      * Long password, special character, capital letter, numbers, don't use natural language
-* **Describe the sequence in a password-based challenge-response authentication and compare its security with sending the password directly either encrypted or unencrypted.**
+* **Describe the sequence in a password-based challenge-response [[authentication]] and compare its security with sending the password directly either encrypted or unencrypted.**
 * Sequence:![](img/password-based.PNG)
-     * Compare: Challenge-response authentication can defend against [session replay attacks](https://whatis.techtarget.com/definition/session-replay-script), in which an attacker listens to previous messages and resends them  later to get the same credentials as the original message.  Challenge-response systems defend against replay attacks, because each  challenge and response is unique. An attacker monitoring credentials  exchanges and then attempting to reuse credentials will not succeed in  gaining access.
-* **Describe the terms Token, Smart Card and Biometry and explain their use for authentication**
+     * Compare: Challenge-response [[authentication]] can defend against [session replay attacks](https://whatis.techtarget.com/definition/session-replay-script), in which an attacker listens to previous messages and resends them  later to get the same credentials as the original message.  Challenge-response systems defend against replay attacks, because each  challenge and response is unique. An attacker monitoring credentials  exchanges and then attempting to reuse credentials will not succeed in  gaining access.
+* **Describe the terms Token, Smart Card and Biometry and explain their use for [[authentication]]**
      * Token: a device that show digits that are changed every minute, can be calculated on the token with some cryptographic embedded in the token which is not ez to extracted
      * Smart card: card that is auth by prove themselves to the card reader that they are really presented by means of [[DISTRIBUTED SYSTEM/Cryptography|cryptography]]
      * Biometry: physical properties of a person. To prove that you are really you.
 * **Describe Cryptographic Hash Functions**
   
   * Compute characteristic pattern (“fingerprint”) of fixed length for each message. Mostly 128 or 256 bits. It should be impossible to find a message producing a given hash value, to find two messages with the same hash value. Widely used algorithms: MD5 and SHA
-* **Describe how public key or symmetric [[DISTRIBUTED SYSTEM/Cryptography|cryptography]] can be used for authentication.**
+* **Describe how public key or symmetric [[DISTRIBUTED SYSTEM/Cryptography|cryptography]] can be used for [[authentication]].**
 
      * Symmetric key: 
      * ![image-20200424211818767](img/image-20200424211818767.png)
@@ -233,7 +233,7 @@ The structure of the internet makes it simple to do so.
 * **Explain the following attacks:**
     * **MAC Address Spoofing**
 		MAC Spoofing: Not too diffucult to change MAC address. Certain app use
-		the MAC for authentication purposes, like DHCP, WLAN use mac for restricting network access,...
+		the MAC for [[authentication]] purposes, like DHCP, WLAN use mac for restricting network access,...
 	* **ARP Spoofing**
 		![alt text](img/ARPspoofing.PNG "Logo Title Text 1")
 		* ARP Spoofing: Address resolution protocol for translating IP to MAC such that within the same LAN segment packets can be routed.
@@ -289,7 +289,7 @@ The structure of the internet makes it simple to do so.
 		* Advantages: High flexibility (possible to provide security on parts of the communication flow), transparency to the above layers (no changes to above layers to deploy these mechanisms).
 		* Disadvantages: Transparancy is also bad because it is impossible or very difficult to intentionally employ these mechanisms.
 		* Examples: Virtual network machine
-	* Data link layer security: Authentication, authorization and access control
+	* Data link layer security: [[Authentication]], authorization and access control
 		![alt text](img/Datalinksec.PNG "Logo Title Text 1")
 		* Advantage: Allow to control which station are granted access to the Data link layer within the network
 		* Disadvantage: solely local protection
@@ -370,14 +370,14 @@ The structure of the internet makes it simple to do so.
 	Based on previous packets
 # Lec10
 ## Virtual Private Networks
-	There might be people who work outside the company but need access to the intranet. Back in the days, 
-	they used direct remote dial-up connection through a modem between a PC from outside the company. Which was
-	very costly and doesn't provide the right bandwidth. The usage of this have been reduced thanks to VPN.
-	
-	Another option is to allocate all the resources which are to be used from the outside, are not shielded by the firewall
-	but to put it on the internet. Basically move the server to the DMZ. Problem: If we have a lot of resources which need to be moved,
-	meaning a lot of authentication to be dealt with. If we want to check who gets access to our system, we would have to check the log file
-	of all the servers. With VPN, it's much easier to check who gets access.
+There might be people who work outside the company but need access to the intranet. Back in the days, 
+they used direct remote dial-up connection through a modem between a PC from outside the company. Which was
+very costly and doesn't provide the right bandwidth. The usage of this have been reduced thanks to VPN.
+
+Another option is to allocate all the resources which are to be used from the outside, are not shielded by the firewall
+but to put it on the internet. Basically move the server to the DMZ. Problem: If we have a lot of resources which need to be moved,
+meaning a lot of[authentication] to be dealt with. If we want to check who gets access to our system, we would have to check the log file
+of all the servers. With VPN, it's much easier to check who gets access.
 * **VPN? RAS? Site-to-site VPN?**
 	![alt text](img/VPN.PNG "Logo Title Text 1")
 

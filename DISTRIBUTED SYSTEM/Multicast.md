@@ -10,3 +10,5 @@
 	- Resources are replicated in the members of the group to increase the performance.
 - **Propagation** of notifications
 	- Messages are propagated to the members of the group.
+#DISTRIBUTED_SYSTEM 
+#COMPUTER_NETWORK 

@@ -9,7 +9,7 @@ First, let's have a look at our reference book of Iam Sommerville. On page 175 h
 
 >There are differing views about whether or not software architects should use the UML for describing and documenting software architectures. A survey in 2006 (Lange, Chaudron, and Muskens 2006) showed that, when the UML was used, it was mostly applied in an informal way. The authors of that paper argued that this was a bad thing.
 >
->I disagree with this view. The UML was designed for describing object-oriented systems, and, at the architectural design stage, you often want to describe systems at a higher level of abstraction. Object classes are too close to the implementation to be useful for architectural description. I don’t find the UML to be useful during the design process itself and prefer informal notations that are quicker to write and that can be easily drawn on a whiteboard. The UML is of most value when you are documenting an architecture in detail or using **model-driven developmen**t, as discussed in Chapter 5
+>I disagree with this view. The UML was designed for describing object-oriented systems, and, at the [[architectural design]] stage, you often want to describe systems at a higher level of abstraction. Object classes are too close to the implementation to be useful for architectural description. I don’t find the UML to be useful during the design process itself and prefer informal notations that are quicker to write and that can be easily drawn on a whiteboard. The UML is of most value when you are documenting an architecture in detail or using **model-driven developmen**t, as discussed in Chapter 5
 
 * As he said UML is for OOP system & Object, classes are too clost to the implementation -> not useful for architectural description.
 * Model-driven development is a type of System modelling that "is a model-focused approach to software design and implementation that uses a subset of UML models to describe a system" said in *Chapter 5.5: System modeling-Model-driven architecture* .  The architecture said in here is just a name but not the architecture of the software that we are talking-studying about.
@@ -18,7 +18,7 @@ First, let's have a look at our reference book of Iam Sommerville. On page 175 h
 -> We now know that the author of the reference book, is not found UML useful during the design process of the architecture and "prefer informal notations that are quicker to write and easily drawn on a white board"
 
 >[!conclusion]
-In the book, we have no clue of which UML diagram is used for which view in the process of software's architectural design. Furthermore, the author does not suggest using UML for software architecture design.
+In the book, we have no clue of which UML diagram is used for which view in the process of software's [[architectural design]]. Furthermore, the author does not suggest using UML for software architecture design.
 
 But in the reference part of the book, we could find some useful information about this discussion.
 # UML: Software Engineering with Objects and Components
@@ -58,7 +58,7 @@ Through all the sources that I have listed above.
 	* They are actually not tightly mapped and UML is actually not built for architecture design, based on both books that I mentioned.
 	* But we can still use the UML system because it is more readable and understandable.
 * But I disagree with you about later the idea because 
-	* In the reference book on which you confirm the slide is based, it is obvious do not mention anything about the relationship between UML diagram and 4+1 view model. Furthermore, he disagrees with using UML for architectural design. 
+	* In the reference book on which you confirm the slide is based, it is obvious do not mention anything about the relationship between UML diagram and 4+1 view model. Furthermore, he disagrees with using UML for [[architectural design]]. 
 	* In the book "UML: Software Engineering with Objects and Components",to which the book "Software engineering" of Sommerville references.
 		* The authors list Sequence diagram (as interaction diagram) beside activity diagram in Process view taking that " they are used to determine the threads of control of the system".
 		* -> Although Sequence diagram can also be used in Logical view, I don't think Sequence diagram is inferior to Activity diagram when representing Process view.

@@ -6,4 +6,4 @@
 	- The numerical value of the z-score corresponds to the number of standard deviations between X and the mean of the Distribution 
 - ![[Pasted image 20230409164140.png]]
 - ![[Pasted image 20230409164149.png]]
-- #STATISTIC 
+ #STATISTIC 

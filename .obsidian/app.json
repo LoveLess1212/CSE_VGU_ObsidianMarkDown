@@ -8,10 +8,7 @@
   "foldIndent": true,
   "rightToLeft": false,
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-US",
-    "en-GB"
-  ],
+  "spellcheckLanguages": null,
   "livePreview": true,
   "autoPairMarkdown": false,
   "showLineNumber": false,
