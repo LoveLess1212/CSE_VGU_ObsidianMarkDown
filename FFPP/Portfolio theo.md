@@ -1,6 +1,6 @@
 * If you want to invest in stock you must have some idea - data history ...
 * How much should you invest ?
-* Stockprice of a company have a rate of **return** AKA **mean**
+* Stock price of a company have a rate of **return** AKA **mean**
 	*(task later) calculate the rate of return of a company*
     * it is not similar to the old data, sometime it higher, sometime it lower
     * The fluctuation or volatility of the stock price is the *standard deviation* of the rate of return AKA **risk**
@@ -18,3 +18,4 @@
 # Markowitz portfolio theory
 ## How to select the best portfolio ?
 * For every risk you accept, there is a return you can expect
+#Freedom_Financial 

@@ -11,7 +11,7 @@
 | 4   | Web3 and web 3.0: Definition and a bit of History                                                               |
 | 5   | How to architect today's business applications and automate their business processes using web 3.0              |
 
-
+#CES 
 
 
 

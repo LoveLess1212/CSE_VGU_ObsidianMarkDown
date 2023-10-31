@@ -5,6 +5,7 @@
 * Event based
 * Dynamic - more realistic 
 * Value at risk 
+* 
 -----------
 # What to do
 * carefully split into stages

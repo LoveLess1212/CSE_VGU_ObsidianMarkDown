@@ -48,3 +48,4 @@
 * Low power usage
 * Low transfer time
 * Real-time support
+#DISTRIBUTED_SYSTEM 

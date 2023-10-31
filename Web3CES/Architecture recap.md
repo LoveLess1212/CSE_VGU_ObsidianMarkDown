@@ -7,4 +7,10 @@
 * Have business domain knowledge
 * Posessess interpersonal skills
 * Understand and navigate politics
+# Intersection of Architecture and...
+* Engineering Practices
+* Operations/DevOps
+* Process
+* Data
+# 
 #CES

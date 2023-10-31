@@ -1,0 +1,8 @@
+---
+tags:
+  - CES
+---
+* The concept of trust is the heart of blockchain. Consensus is the mechanism that facilitates the utopian aspect of blockchain by providing a means for disparate parties to transact without the necessary trust provided by intermediaries prevalent in today's transactional systems.
+* Another way to think about consensus is this: every time you use your credit card, several intermediaries are involved, each performing a specific function and collecting a fee which you are paying for in addition to the amount of your purchase. You may not see the fees, but they are build into the transaction either implicitly or explicitly, and you are paying for them. In blockchain, the mech of consensus performs this function of trust, void of intermediaries.
+* Consensus has many implementations. Each is designed to provide trust based on probaility. This prob is a function of agreement. Complete agreement is difficult to attain and requires a lot  of time and resources, while partial agreement is faster and requires fewer resources, but is risky. How much risk is used to reach agreement. Seldom, if ever, can prob of agreement be 1 or 100%, and often less than 100% is acceptable. Many consensus algorithm exist, and new algorithms are continuously begin designed. You should understand four: Proof of work, proof of stake, practical Byzantine fault tolerance, and proof of elapsed time.
+* 
