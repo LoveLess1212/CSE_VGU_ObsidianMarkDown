@@ -7,7 +7,7 @@
 * ![[Pasted image 20230110110654.png]]
 * The spooling directory is consistent
 	* But the entry of **[[process]] Y** was overwritten by **[[process]] X** and got lost
-* Such situation is called [[race condition]]
+* Such situation is called [[OPERATING SYS/race condition]]
 
 
 

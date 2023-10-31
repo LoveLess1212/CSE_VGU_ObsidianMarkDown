@@ -1,5 +1,5 @@
 # [[IPC]]
 # [[Critical Sections]]
-# [[race condition]]
+# [[OPERATING SYS/race condition]]
 # [[Synchronization]]
 #OPERATING_SYSTEM 
