@@ -1,4 +1,4 @@
-* Worm in IT security is a self-replicating malware that duplicates itself to spread to uninfected computers.
+* Worm in IT security is a self-replicating [[malware]] that duplicates itself to spread to uninfected computers.
 * Worms often use parts of an operating system that are automatic and invisible to the user.
 * Worms often spread by exploiting security holes in operating systems and computer programs.
 * Worms can also spread by infecting files on a network file system or a file system that is accessed by another computer.

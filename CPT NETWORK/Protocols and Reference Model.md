@@ -58,7 +58,7 @@
 - Each IP packet is routed indept to its destination and the path is not recorded
 - Routers and Layer-3-Switches connect logical networks
 - Usually the connecctionless Internet [[Protocol]] (IP)
-### Transport Layer
+### [[Transport Layer]]
 - Transports segments betweek process on diff devices - end to end protocols 
 - Addresses processes with port numbers
 - Transport implement diff form of communication

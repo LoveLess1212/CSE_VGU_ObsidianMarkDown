@@ -13,7 +13,7 @@ Structure:
 		* REST must use JSON to encode its data
 		* REST is architecture independent
 		* Operations are encoded in the document with SOAP but in the URL in REST
-	* Which system or app is there mostly with P2P model
+	* Which system or app is there mostly with [[point-to-point|P2P]] model
 		* Google search engine
 		* BitTorrent ..
 		* Webservice
@@ -24,7 +24,7 @@ Structure:
 		* DNS
 		* VOIP
 	* Which is false
-		* In grid Computing all machines on the network work under the same protocol and act like a virtual supercomputer
+		* In grid Computing all machines on the network work under the same [[protocol]] and act like a virtual supercomputer
 		* Infrastructure as a service PAAS and Saas ARE SERVICE MODELS IN COULD COMPUTING
 		* spark is es useful for parallel processing of distributed data with iterative algorithm
 		* Getrerogeneous Distributed Databases are all the databases sites which use identical DBMS and operating system while homogeneous Distributed Databases are diff databases sites that have ..
@@ -32,7 +32,7 @@ Structure:
 * 2. 
 	* TCP implements reliable communication on UDP, which is unreliable
 	* Sockets are not needed for UDP bcs UDP is stateless
-	* MQTT is a lightweight messaging protocol
+	* MQTT is a lightweight messaging [[protocol]]
 	* Map reduce is a parallel programming ..
 	* SOAP REST :))) different
 	* CORBA is a middleware solution enabling the exchange of information, independent of hardware platforms programming language and operating system
@@ -43,7 +43,7 @@ Structure:
 * 3.
 	* Explain 3 challenges with which a DS has to deal
 	* Draw one possible three-tiered client server architecture and explain the placement of component in the 3 tiered architecture 
-	* A P2P architecture is always more efficient than a centralized architecture. ? agree?? justify your ans
+	* A [[point-to-point|P2P]] architecture is always more efficient than a centralized architecture. ? agree?? justify your ans
 	* Some could computing services like AWS and Azure provide their end users with Virtual machine rather than allocated physical machine. Doing so bings at least three benefits to the provicers. Explain what these 3 benefits are. ?
 * 4. Complete ans
 	* Given a [[multicast]] program as below. Fill in the blank 

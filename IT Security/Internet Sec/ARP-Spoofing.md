@@ -1,3 +1,3 @@
-* ARP spoofing, is a technique by  which an attacker sendS(spoofed) ARP messages onto a local are network to associate the attackers' MAC address with the IP address of another host, such as the default gateway, causing any traffic meant for that IP address to be sent to the attacker instead.
+* ARP spoofing, is a technique by  which an attacker sendS(spoofed) ARP messages onto a local are network to associate the attackers' [[MAC address]] with the IP address of another host, such as the default gateway, causing any traffic meant for that IP address to be sent to the attacker instead.
 * This allows the attacker to intercept traffic meant for the target host, and even modify the traffic before forwarding it to the target host.
 #IT_SECURITY 

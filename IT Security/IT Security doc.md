@@ -46,7 +46,7 @@
   * Non-repudiation is about Alice showing to Bob a proof that some data really comes from Alice, such that not only Bob is convinced, but Bob also gets the assurance that he could show the same proof to Charlie, and Charlie would be convinced, too, even if Charlie does not trust Bob.
 
 # Lec2
-## [[DISTRIBUTED SYSTEM/Cryptography|Cryptography]]
+## [[cryptography]]
 
    * **Model of a cryptographic system**
      
@@ -124,12 +124,12 @@
      * Compare: Challenge-response [[authentication]] can defend against [session replay attacks](https://whatis.techtarget.com/definition/session-replay-script), in which an attacker listens to previous messages and resends them  later to get the same credentials as the original message.  Challenge-response systems defend against replay attacks, because each  challenge and response is unique. An attacker monitoring credentials  exchanges and then attempting to reuse credentials will not succeed in  gaining access.
 * **Describe the terms Token, Smart Card and Biometry and explain their use for [[authentication]]**
      * Token: a device that show digits that are changed every minute, can be calculated on the token with some cryptographic embedded in the token which is not ez to extracted
-     * Smart card: card that is auth by prove themselves to the card reader that they are really presented by means of [[DISTRIBUTED SYSTEM/Cryptography|cryptography]]
+     * Smart card: card that is auth by prove themselves to the card reader that they are really presented by means of [[cryptography]]
      * Biometry: physical properties of a person. To prove that you are really you.
 * **Describe Cryptographic Hash Functions**
   
   * Compute characteristic pattern (“fingerprint”) of fixed length for each message. Mostly 128 or 256 bits. It should be impossible to find a message producing a given hash value, to find two messages with the same hash value. Widely used algorithms: MD5 and SHA
-* **Describe how public key or symmetric [[DISTRIBUTED SYSTEM/Cryptography|cryptography]] can be used for [[authentication]].**
+* **Describe how public key or symmetric [[cryptography]] can be used for [[authentication]].**
 
      * Symmetric key: 
      * ![image-20200424211818767](img/image-20200424211818767.png)
@@ -203,7 +203,7 @@
 	* Also known as(Race condtions, TOC time of check, TOU time of use error)
 	* Can use semaphores or other atoma instructions for the machine for when executions are not interuptable.
 * **Active content?**
-	* Downloaded file can have malware or undesired functionality. 
+	* Downloaded file can have [[malware]] or undesired functionality. 
 	* Can use cryptographic mechanisms to ensure safety (certificates). The program might still contains parts that the issuer is not awared about.
 
 	* Active content: code that you download over the internet, but instead of installing but directly run it e.g: javascript. 
@@ -231,18 +231,18 @@ the attack are based on routing the routing the traffic over a station that is u
 the attacker.
 The structure of the internet makes it simple to do so.
 * **Explain the following attacks:**
-    * **MAC Address Spoofing**
-		MAC Spoofing: Not too diffucult to change MAC address. Certain app use
+    * **[[MAC Address]] Spoofing**
+		MAC Spoofing: Not too diffucult to change [[MAC address]]. Certain app use
 		the MAC for [[authentication]] purposes, like DHCP, WLAN use mac for restricting network access,...
 	* **ARP Spoofing**
 		![alt text](img/ARPspoofing.PNG "Logo Title Text 1")
-		* ARP Spoofing: Address resolution protocol for translating IP to MAC such that within the same LAN segment packets can be routed.
-		* If such a translation is necessary, then the protocol will findout whether a MAC address will belong to an IP address.
+		* ARP Spoofing: Address resolution [[protocol]] for translating IP to MAC such that within the same LAN segment packets can be routed.
+		* If such a translation is necessary, then the [[protocol]] will findout whether a [[MAC address]] will belong to an IP address.
 		* Since you don't want to this all the time so you store it in the ARP cache.
 		* Attacker poison/manipulate the ARP cache to their advantage
 		* B wants to send packets to C (192.168.5.19)
-		* A reply to B that the MAC address for 192.168.5.19 is A's MAC.
-		* If A makes sure that C is not listening and responding to B, B will store A's MAC address as the MAC for 192.168.5.19 in its ARP cache.
+		* A reply to B that the [[MAC address]] for 192.168.5.19 is A's MAC.
+		* If A makes sure that C is not listening and responding to B, B will store A's [[MAC address]] as the MAC for 192.168.5.19 in its ARP cache.
 		* Later on all B packets intended for C will be send to A. 
 		* It is a well-known attack.
 		* How to prevent: 
@@ -271,7 +271,7 @@ The structure of the internet makes it simple to do so.
 
     * **Pharming / DNS Spoofing**
 	 	![alt text](img/Pharming.PNG "Logo Title Text 1")
-		For pharming, the attacker manipulate/poison the dns service protocol. There are vulnerability of the system that can be misused by the attacker. The attacker can
+		For pharming, the attacker manipulate/poison the dns service [[protocol]]. There are vulnerability of the system that can be misused by the attacker. The attacker can
 		manipulate the dns server or the machine (but they rather do the machine). So the dns domain would lead the client to the attacker's IP website.
 
 * **Advantages and disadvantages of security mechanisms and protocols on all layers of the network reference model and compare them. Also, give examples for their use.**
@@ -280,13 +280,13 @@ The structure of the internet makes it simple to do so.
 		* Advantages: Allow to use networks which are completely unsafe, independent of mechanisms of other layers, the protection is truly between the sender and the receiver (end to end).
 		* Disadavantages: Complexity of application increases, It is difficult to reuse components within the applications, each and every software may have its own mechanism in the worst case.
 		* Examples: Email encryption by the use of certificates, If the user would encrypt a file b4 the file is transmitted.
-	* Transport layer security: The unencrypted data is handed over from the application layer to the transport layer, the transport layer transmit the encrypted data is transmitted throug the network, and is decrypted again in the transport layer.
+	* [[Transport layer]] security: The unencrypted data is handed over from the application layer to the [[transport layer]], the [[transport layer]] transmit the encrypted data is transmitted throug the network, and is decrypted again in the [[transport layer]].
 		![alt text](img/Transportlayersec.PNG "Logo Title Text 1")
-		* Advantages: Allows transport layer does these things without application layer knowing it in some cases, mechanism which is implemented once can be use by as many applications that like to use it (good reusability)
+		* Advantages: Allows [[transport layer]] does these things without application layer knowing it in some cases, mechanism which is implemented once can be use by as many applications that like to use it (good reusability)
 		* Disadvantages: Not end to end (In case there is/are a server/s that relays information in the middle), we cannot make sure that the whole transport is encrypted, also the data is unencrypted in the middle server.
-	* Network layer security: Secure communication between 2 intermidiate stations on the network layer between 2 routers or a router and an endpoint (not end to end), transparent to the above layers.
+	* [[Network layer]] security: Secure communication between 2 intermidiate stations on the [[network layer]] between 2 routers or a router and an endpoint (not end to end), transparent to the above layers.
 		![alt text](img/Networklayersec.png "Logo Title Text 1")
-		* Advantages: High flexibility (possible to provide security on parts of the communication flow), transparency to the above layers (no changes to above layers to deploy these mechanisms).
+		* Advantages: High flexibility (possible to provide security on parts of the communication flow), [[transparency]] to the above layers (no changes to above layers to deploy these mechanisms).
 		* Disadvantages: Transparancy is also bad because it is impossible or very difficult to intentionally employ these mechanisms.
 		* Examples: Virtual network machine
 	* Data link layer security: [[Authentication]], authorization and access control
@@ -299,40 +299,40 @@ The structure of the internet makes it simple to do so.
 
 * **Firewalls:**
 	* Place on the position connecting the intranet to the internet and control the traffic between both network according to rules.
-	* According to these rules (AKA policies), the firewall distinguishes between allowed and unwanted traffic, and also filter out unwanted traffic.
-	* Not all issues are eliminated by the firewall:
+	* According to these rules (AKA policies), the [[firewall]] distinguishes between allowed and unwanted traffic, and also filter out unwanted traffic.
+	* Not all issues are eliminated by the [[firewall]]:
 		* There might be insiders in the company.
 		* There are legitimate station in the intranet that have been compromised. e.g laptops that connect to the intranet and internet everyday that may have contracted malwares.
-		* Loopholes and security vulnerability still, that allow access directly the intranet circumventing the firewall for attackers from outside.
+		* Loopholes and security vulnerability still, that allow access directly the intranet circumventing the [[firewall]] for attackers from outside.
 		* Security due to design and implementation or insufficient policies.
 * **Packet filter:**
-	* Is a indispensible component of the firewall. Builtin to one network station of the networking layer (Router)
+	* Is a indispensible component of the [[firewall]]. Builtin to one network station of the networking layer (Router)
 	* Consists of rule chains, which consist of one or more rules and a default action.
 	* Rule specifies a feature a packet can or cannot have, if the packet matches the rule then a specified action is executed, if it does not match then it is compared to the feature of the next rule
 	* If there is no match, there is a specified default action which will be then executed.
 	* Default action could be discard the packet, forward the packet or jump to another rule chain.
 	* Packet filter let the network administrator design their own rule chains for particular tasks.
 	* The order of the rules is important
-	* Can filter by port number, IP source or destination, IP ranges, which interface that it came in (interfaces that it came in by internet or interfaces that it came in by intranet), transport protocol, flags, date and time,...
+	* Can filter by port number, IP source or destination, IP ranges, which interface that it came in (interfaces that it came in by internet or interfaces that it came in by intranet), transport [[protocol]], flags, date and time,...
 	* Static and dynamic packet filtering:
 		* Static: only the packet is considered and solely dependent on the packet itself (AKA stateless)
 			* Vulnerability: Attacker could spoof a ACK packet and gain information, this can be solved using dynamic packet filters.
 		* Dynamic: information from previous packet might be taken into account (AKA stateful)
 	* Limitations: 
 		* No user specific or application specific filtering possible, they solely see the IP address
-		* The only way to identify applications protocols is to use transport layer information (source ports)
+		* The only way to identify applications protocols is to use [[transport layer]] information (source ports)
 		* Fragmentation can be come problematic, some information might not be present in the packet
 		* Applications with vary port numbers.
-		* Tunneling: some protocol allows for tunneling, some encapsulate information from one protocol to another protocol. With packet filters that take only header information as face value can lead to wrong conclusions.
+		* Tunneling: some [[protocol]] allows for tunneling, some encapsulate information from one [[protocol]] to another [[protocol]]. With packet filters that take only header information as face value can lead to wrong conclusions.
 		* Encryption: once encryption happened, packet filter might have no clue what might actually be in the package
 * **application level gateway ?**
-	* Component of firewall
+	* Component of [[firewall]]
 	* Not look at packets but get the information on the application level and then filter based on this information
 	* AKA proxy for http, session border controller, voice over IP
 	* Connection between the station in the intranet and the server in the internet, this connection does not happen directly but instead through a intermidiate station which filters and controls the traffic on the application layer
 	* There are rules about what is allowed and not allowed
 	* The client send a request to the Application-Level-Gateway then forward the request to the server
-	* It can cache website, access control (blocking certain domains), content checking (malware,...), logging all activities, upload/download control.
+	* It can cache website, access control (blocking certain domains), content checking ([[malware]],...), logging all activities, upload/download control.
 	* Advantage over packet filters: 
 		* User specific rules, could require user to login, after the login there can be roles and rights
 		* fine-grained control (communication peers, functions)
@@ -358,11 +358,11 @@ The structure of the internet makes it simple to do so.
 	* When the packet arrive at C as N, the packet is somehow determine whether the traffic is meant to be for A or for B and how to then replace the public address by A's or B's private address
 	* It is not enough to only translate IP addresses: there must also be a translation of port number
 * **inherent weaknesses and vulnerabilities in the concept Firewalls**
-	* Mobile devices do not remain in the premises of the company but they would gain access to the network. Outside of the protected network of the institution, these machine are not protected by the firewall, Especially in public network, ppl might setup to infect devices with malwares. These devices can be infected easily and can brought malware to the company.
+	* Mobile devices do not remain in the premises of the company but they would gain access to the network. Outside of the protected network of the institution, these machine are not protected by the [[firewall]], Especially in public network, ppl might setup to infect devices with malwares. These devices can be infected easily and can brought [[malware]] to the company.
 	* Tunnels and encryption: Are not only threats but can be useful.
 		* Tunneling and encapsulation: B and X offer tunneling service
 		![alt text](img/Tunneling.PNG "Logo Title Text 1")
-		* The administrator will have a hard time trying to allow stuff out of the firewall and not allowing anybody using tunneling
+		* The administrator will have a hard time trying to allow stuff out of the [[firewall]] and not allowing anybody using tunneling
 		* The stuff being sent through the tunnel could be encrypted, the proxy have no chance of finding out what is in the tunnel
 * **Describe how a static packet filter distinguishes between incoming and outgoing TCP connections. Denote the corresponding rules in pseudo notation or verbally.**
 	Based on packets' flags, TCP for example, intranet does not take any SYN from the internet but only the other way around.
@@ -374,7 +374,7 @@ There might be people who work outside the company but need access to the intran
 they used direct remote dial-up connection through a modem between a PC from outside the company. Which was
 very costly and doesn't provide the right bandwidth. The usage of this have been reduced thanks to VPN.
 
-Another option is to allocate all the resources which are to be used from the outside, are not shielded by the firewall
+Another option is to allocate all the resources which are to be used from the outside, are not shielded by the [[firewall]]
 but to put it on the internet. Basically move the server to the DMZ. Problem: If we have a lot of resources which need to be moved,
 meaning a lot of[authentication] to be dealt with. If we want to check who gets access to our system, we would have to check the log file
 of all the servers. With VPN, it's much easier to check who gets access.
@@ -401,10 +401,10 @@ of all the servers. With VPN, it's much easier to check who gets access.
 	* Site to site:
 		![alt text](img/SitetositeVPN.PNG "Logo Title Text 1")
 		* Remarks: R1 and R2 don't know whether there is a VPN or what happens in between, end to end encryption is recommend
-* **How IPSec works in detail. In your explanation, the terms AH, ESP, Tunnel Mode and Transport mode should be addressed. Also, describe what the Sequence Number in AH and ESP is used for.**
+* **How IPSec works in detail. In your explanation, the terms AH, [[Encapsulating security payload|ESP]], Tunnel Mode and Transport mode should be addressed. Also, describe what the Sequence Number in AH and [[Encapsulating security payload|ESP]] is used for.**
 	* The IP security (IPSec) is an Internet Engineering Task Force (IETF) standard suite of protocols between 2 communication points across the IP network that provide data authentication, integrity, and confidentiality. It also defines the encrypted, decrypted and authenticated packets
 	* Components of IP Security:
-		* Encapsulating Security Payload (ESP): It provides data integrity, encryption, authentication and anti replay. It also provides authentication for payload.
+		* [[Encapsulating Security Payload]] ([[Encapsulating security payload|ESP]]): It provides data integrity, encryption, authentication and anti replay. It also provides authentication for payload.
 		* Authentication Header (AH): It provides data integrity, authentication and anti replay and it does not provide encryption. The anti replay protection, protects against unauthorized transmission of packets. It does not protect data’s confidentiality.
 		* Internet Key Exchange (IKE): Internet Key Exchange (IKE) provides message content protection and also an open frame for implementing standard algorithms such as SHA and MD5. The algorithm’s IP sec users produces a unique identifier for each packet. This identifier then allows a device to determine whether a packet has been correct or not. Packets which are not authorized are discarded and not given to receiver.
 	* Uses of IP Security:
@@ -421,14 +421,14 @@ of all the servers. With VPN, it's much easier to check who gets access.
 		* When the communication between the hosts is completed or the session times out then the IPsec tunnel is terminated by discarding the keys by both the hosts.
 	* Tunnel mode: If there is a security association between 2 stations in tunnel mode, then all packets which are being secured by the SA are being tunneled between the stations. Which means packets to be secured through the association will be encapsulated in another IP packet so there is a new IP header and being tunneled between the system. The IP source and destination are the IP of system which are being connected by the SA.
 	* Transport mode: IPsec support end to end encryption of packets. The IP header of the protected packets are not changed by IPSec but the payload either integrity protected or encrypted. Cannot be used for VPN
-	* Sequence number in AH and ESP is used for protection against replay attack, this number is incremented for each packets. When the maximum number is reached a new security association must be setup.
+	* Sequence number in AH and [[Encapsulating security payload|ESP]] is used for protection against replay attack, this number is incremented for each packets. When the maximum number is reached a new security association must be setup.
 * **Explain and describe how OpenVPN works in detail. In your explanation, the terms tun device and tap-device should be addressed.**
 	* OpenVPN works by creating virtual interfaces in user space under Linux
 	* Set up 2 virtual interfaces, which are point to point interfaces connecting 2 routers. This is how OpenVPN is displayed in the router.
-	* In fact there is no point to point connection, but it is encrypted and encapsulated and sent over the public interface by using SSL/TLS transport connection
+	* In fact there is no point to point connection, but it is encrypted and encapsulated and sent over the public interface by using SSL/[[TLS SSL|TLS]] transport connection
 	* Can be run with TCP and UDP. UDP is likely the best possible choice for transporting because if a frame gets lost, we don't want to stall the whole process untill the frame is received again
-	* OpenVPN is very flexible and can transfer traffic either from the network layer as well as from the data link layer:
-		* If used on network layer, so called tun device comes in to play
+	* OpenVPN is very flexible and can transfer traffic either from the [[network layer]] as well as from the data link layer:
+		* If used on [[network layer]], so called tun device comes in to play
 		* If used on data link layer, so called tap device is used
 
 
@@ -442,12 +442,12 @@ of all the servers. With VPN, it's much easier to check who gets access.
 * **POP-Auth?**
   * when you fetch a email, you will tell the server your username, the user keyword and the server will rep with the ok. then you will send out the pass phrase (secret) then the server will rep with another ok again, then you are logged in
 * **How emails work?**
-  * Sender first contact the sender's mail server by a protocol called smtp, then the sender's mail send to recipient's mail server also using smtp protocol, and the mail will be stored in this server. when the recipient want to read the email, the recipient will contact that mail server to get the mail by a protocol called POP/IMAP
+  * Sender first contact the sender's mail server by a [[protocol]] called smtp, then the sender's mail send to recipient's mail server also using smtp [[protocol]], and the mail will be stored in this server. when the recipient want to read the email, the recipient will contact that mail server to get the mail by a [[protocol]] called POP/IMAP
 * **App layer encryption**
   * before send out the email, convert it to ciphertext and then proceed the normal email sending procedure. When the email is arrived at the final destination and the other end, the email will then be decrypted
 * **SSH**
-  * The SSH protocol (also referred to as Secure Shell) is a method for secure remote login from one computer to another
-  * The protocol works in the [[client-server]] model, which means that the  connection is established by the SSH client connecting to the SSH  server. The SSH client drives the connection setup process and uses  public key [[DISTRIBUTED SYSTEM/Cryptography|cryptography]] to verify the identity of the SSH server. After  the setup phase the SSH protocol uses strong symmetric encryption and  hashing algorithms to ensure the privacy and integrity of the data that  is exchanged between the client and server.
+  * The SSH [[protocol]] (also referred to as Secure Shell) is a method for secure remote login from one computer to another
+  * The [[protocol]] works in the [[client-server]] model, which means that the  connection is established by the SSH client connecting to the SSH  server. The SSH client drives the connection setup process and uses  public key [[cryptography]] to verify the identity of the SSH server. After  the setup phase the SSH [[protocol]] uses strong symmetric encryption and  hashing algorithms to ensure the privacy and integrity of the data that  is exchanged between the client and server.
   * ![](img/How_does_the_SSH_protocol_work_.png)
 * **Local PFW**
   * connection that transfer from SSH Client to SSH Server to the destination host/server 
@@ -456,18 +456,18 @@ of all the servers. With VPN, it's much easier to check who gets access.
   * connection that transfer from SSH Server to SSH Client to the destination host/server 
   * ![](img/remote_pfw.gif)
 * **TLS/SSL**
-  * [cryptographic protocols](https://en.wikipedia.org/wiki/Cryptographic_protocol) designed to provide [communications security](https://en.wikipedia.org/wiki/Communications_security) over a [computer network](https://en.wikipedia.org/wiki/Computer_network).
+  * [cryptographic protocols](https://en.wikipedia.org/wiki/Cryptographic_[[protocol]]) designed to provide [communications security](https://en.wikipedia.org/wiki/Communications_security) over a [computer network](https://en.wikipedia.org/wiki/Computer_network).
   * Structure: ![](img/tls_ssl_structure.PNG)
-  * Lay between Application layer and Transport layer
-  * Consist of 2 smaller layer in TLS/SSL protocol: 
-    * First 3 protocol for negotiate of the encrypted connection, 4th one for transferring something.
-    * TLS Record Protocol: transferring record which are encrypted symmetrical cryptographical mechanism and using digital signature for ensuring integrity of respective record. Then this protocol will be then used by other specified protocol for transmission 
-  * How TLS/SSL is used: handshake protocol.
+  * Lay between Application layer and [[Transport layer]]
+  * Consist of 2 smaller layer in TLS/SSL [[protocol]]: 
+    * First 3 [[protocol]] for negotiate of the encrypted connection, 4th one for transferring something.
+    * TLS Record [[Protocol]]: transferring record which are encrypted symmetrical cryptographical mechanism and using digital signature for ensuring integrity of respective record. Then this [[protocol]] will be then used by other specified [[protocol]] for transmission 
+  * How TLS/SSL is used: handshake [[protocol]].
 * **Dynamic content**
   * Content that constantly or regularly changes based on user interactions, timing and other parameters that determine what content is delivered to the user (like Facebook)
 * **Simple Anonymization**
 * **S/MIME**
-  *  A standard for [public key](https://en.wikipedia.org/wiki/Public_key) [encryption](https://en.wikipedia.org/wiki/Encryption) and [signing](https://en.wikipedia.org/wiki/Digital_signature) of [MIME](https://en.wikipedia.org/wiki/MIME) ( **MIME** is an [Internet standard](https://en.wikipedia.org/wiki/Internet_standard) that extends the format of [email](https://en.wikipedia.org/wiki/Email) messages to support text in [character sets](https://en.wikipedia.org/wiki/Character_set) other than [ASCII](https://en.wikipedia.org/wiki/ASCII), as well as attachments of audio, video, images, and application  programs.  Message bodies may consist of multiple parts, and header  information may be specified in non-ASCII character sets. Email messages with MIME formatting are typically transmitted with standard protocols, such as the  [Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) (SMTP), the [Post Office Protocol](https://en.wikipedia.org/wiki/Post_Office_Protocol) (POP), and the [Internet Message Access Protocol](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) (IMAP).) data
+  *  A standard for [public key](https://en.wikipedia.org/wiki/Public_key) [encryption](https://en.wikipedia.org/wiki/Encryption) and [signing](https://en.wikipedia.org/wiki/Digital_signature) of [MIME](https://en.wikipedia.org/wiki/MIME) ( **MIME** is an [Internet standard](https://en.wikipedia.org/wiki/Internet_standard) that extends the format of [email](https://en.wikipedia.org/wiki/Email) messages to support text in [character sets](https://en.wikipedia.org/wiki/Character_set) other than [ASCII](https://en.wikipedia.org/wiki/ASCII), as well as attachments of audio, video, images, and application  programs.  Message bodies may consist of multiple parts, and header  information may be specified in non-ASCII character sets. Email messages with MIME formatting are typically transmitted with standard protocols, such as the  [Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) (SMTP), the [Post Office Protocol] (POP), and the [Internet Message Access [[Protocol]]](https://en.wikipedia.org/wiki/Internet_Message_Access_[[[[[[Protocol]]]]]]) (IMAP).) data
   * S/MIME provides the following cryptographic security services for electronic messaging applications:
     - [Authentication](https://en.wikipedia.org/wiki/Authentication)
     - Message integrity

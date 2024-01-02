@@ -1,0 +1,14 @@
+- Hash //
+- Real estate ID
+- Buyer ID
+- Seller ID
+- Contract ID
+- Status:
+	- Deposit status
+	- Tax-fraud check status
+	- Database conflict error status
+	- Full money status
+	- Contract status 
+		- ongoing
+		- finished
+		- terminate

@@ -1,3 +1,3 @@
 * Zero-day exploit: a type of exploit that takes advantage of a security vulnerability on the same day that the vulnerability becomes generally known (zero-day). [[Zero-day]]
-* A zero-day attack happens once that flaw, or software/hardware vulnerability, is exploited and attackers release malware before a developer has an opportunity to create a patch to fix the vulnerability—hence “zero-day.”
+* A zero-day attack happens once that flaw, or software/hardware vulnerability, is exploited and attackers release [[malware]] before a developer has an opportunity to create a patch to fix the vulnerability—hence “zero-day.”
 #IT_SECURITY 

@@ -1,7 +1,7 @@
 # Creating Frames
 * The [[Data Link Layer]] does among others
 	* Identify the frames in the bit stream of the [[Physical Layer]]
-	* pack the data packages of the Network Layer in frames
+	* pack the data packages of the [[Network Layer]] in frames
 * It is required that the beginning of each frame is highlighted
 	* Without markings, the receiver cannot detect the frame boundaries
 * Different ways exist to mark the frames borders
@@ -24,7 +24,7 @@
 * The [[DLE]] character is represented in the payload by sequence [[DLE]]
 * The method is called Byte Stuffing or Character Stuffing, because the 
 	* Sender *inserts*(stuffs) extra characters into the payload
-	* Receiver *removes* the stuffed characters from the received payload, before passing it to the Network Layer
+	* Receiver *removes* the stuffed characters from the received payload, before passing it to the [[Network Layer]]
 * Drawback:
 	* Strong relationship with the ASCII character encoding
 		* More recent protocols of this layer no longer operate byte-oriented, but bit oriented because this allows using any character encoding
@@ -34,7 +34,7 @@
 	* Each frame begins and ends with the sequence 01111110
 	* ![[Pasted image 20221206101038.png]]
 * If the [[HDLC]] [[Protocol]] in the [[Data Link Layer]]
-	* of the sender discovers 5 consecutive 1-bits in the bit stream from the Network Layer, it stuffs a 0-bit in the outgoing bit stream
+	* of the sender discovers 5 consecutive 1-bits in the bit stream from the [[Network Layer]], it stuffs a 0-bit in the outgoing bit stream
 	* of the receiver discovers 5 consecutive 1-bits, followed by a 0-bit in the bit stream from the [[Physical Layer]], it removes the 0-bit
 * Advantages
 	* Ensures that the start/ end sequence does not occur in the payload

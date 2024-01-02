@@ -63,17 +63,17 @@ Ex:
 
 ![[Pasted image 20221207122421.png]]
 
-## CSMA/CD Nowadays
+## CSMA/[[CD]] Nowadays
 * The media access method [CSMA/CD](CD) **is absolutely necessary** only for Ethernet networks, which implements the **[[Bus Network]] technology**
-	* Reason: in a [[Bus Network]] [[topology]], all network devices are directly connected to a shared transmission medium (channel)
+	* [[Reason]]: in a [[Bus Network]] [[topology]], all network devices are directly connected to a shared transmission medium (channel)
 * Almost all Ethernet-based network nowadays are **fully switched networks** and therefore **collision free**
 # [[Media Access Control Methods]] of Wlan
 * [CSMA/CD](CD) cannot be used with wireless networks
-* With CSMA/CD, the sender detects occurring collisions
+* With CSMA/[[CD]], the sender detects occurring collisions
 	* In wired networks with a shared transmission medium (channel), each participant receives the transmission of all other nodes
 		* Therefore, each node detects any collision
 	* For wireless networks like WLAN, this is not always the case
-		* Therefore, the media access method CSMA/CA is used, which tries to minimize the occurrence of collisions
+		* Therefore, the media access method CSMA/[[CA]] is used, which tries to minimize the occurrence of collisions
 * Special challenges of the transmission medium (channel) in wireless networks cause undetected collisions at the receiver
 	* [[Hidden terminal problem]]
 	* [[Fading]]
@@ -84,15 +84,15 @@ Ex:
 	* Minimum spacing between frames, when a sequence of frames shall be transmitted
 	* Acknowledgements - [[ACK]] (not for broadcast)
 	* Default method which is implemented in all WLAN dev
-2. [CSMA/CA](CA) [RTS/CTS](obsidian://open?vault=Study&file=RTS%20CTS)
+2. [CSMA/CA](CA) [[[RTS]]/[[CTS]]](obsidian://open?vault=Study&file=[[RTS]]%20CTS)
 	* Solves the problem of hidden terminals
 	* Optional method and implemented in most WLAN devices
-3. [CSMA/CA PCF](CSMA CA PCF)
+3. [CSMA/[[CA]] [[PCF]]](CSMA [[CA]] PCF)
 	* Access Point controls the access to the transmission medium (channel)
 	* Optional method and seldom implemented
 # Transmission of Frames
-* If a node,which transmits frames, detects a collision via CSMA/CD, it aborts the transmission of the frame
-* WLAN does not use collision detection, but with CSMA/CA it implements collision avoidance (actually it is just a collision minimization)
+* If a node,which transmits frames, detects a collision via CSMA/[[CD]], it aborts the transmission of the frame
+* WLAN does not use collision detection, but with CSMA/[[CA]] it implements collision avoidance (actually it is just a collision minimization)
 	* If a station starts transmitting a frame, it will send the entire frame in any case
 		* Once a station has started transmitting, there is no turning back
 	* The sender must therefore be able to detect if a frame has not arrived correctly at the receiver

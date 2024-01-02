@@ -2,7 +2,7 @@
 - One machine **communicates** with one another, we need to know
 	- The **location** of machine
 		- E.g., 138.37.94.248:8080 or vgu.vn:8080
-	- The communication **protocol**
+	- The communication **[[protocol]]**
 		- E.g., TCP/IP or UDP
 # Process to process
 - Process A communicates with Process B
@@ -48,7 +48,7 @@
 	- The connection is closed
 - The **java.net package** in the Java platform provides a **class**, **Socket**, that implements one side of a two-way connection between your Java program and another program on the network. By using the **java.net.Socket class** instead of relying on native code, your Java programs can communicate over the network in a platform-independent fashion.
 - Additionally, java.net includes the **ServerSocket class**, which implements a socket that servers can use to listen for and accept connections to clients.
-- There are two types of IP traffic: **TCP** (Transmission Control Protocol) and **UDP** (Universal Datagram Protocol). TCP is a connection-oriented protocol while UDP is a connectionless protocol.
+- There are two types of IP traffic: **TCP** (Transmission Control [[Protocol]]) and **UDP** (Universal Datagram [[Protocol]]). TCP is a connection-oriented [[protocol]] while UDP is a connectionless [[protocol]].
 ## Preliminaries
 - [[Java exception]]
 - [[Stream]]

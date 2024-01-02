@@ -35,6 +35,7 @@ Communication between computer are possible via parallel and serial
 	* **Physical [[topology]]:** describes the wiring
 	* **Logical [[topology]]:** Describes the flow of data between the terminal devices
 * Topologies are graphically represented with nodes and edges
+
 | Name                 | Description                                                                                    | Advantage                                                     | Drawback                                                                           |
 | -------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | [[Bus Network]]      | All terminal devices are connected via a shared cable - the bus                                | Cheap to implement                                            | Shared cable files -> Network fails / Only single node can send data at each point |

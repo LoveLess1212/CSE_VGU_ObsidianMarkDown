@@ -1,3 +1,8 @@
+---
+tags:
+  - IT_SECURITY
+---
+
 # Problems and limits of Packet Filter
 * There is no user-specific or - application specific filtering possible
 	* The only thing we can put into this is Ip address
@@ -14,7 +19,7 @@
 			* Port number could be negotiated dynamically through channel
 * Application with Varying port number 
 * Tunneling and encryption
-	* some protocol allow for tunneling other protocol by allowing encapsulating information from one protocol into another protocol
+	* some [[protocol]] allow for tunneling other [[protocol]] by allowing encapsulating information from one [[protocol]] into another [[protocol]]
 		 * This time, packet filter might take fake value, wrong conclusion will drawn
 	 * Encryption
 		 * if encryption happen, then of course packet filter will not in position to break it -> PF will have no clue about the information inside it -> can't make conclusion

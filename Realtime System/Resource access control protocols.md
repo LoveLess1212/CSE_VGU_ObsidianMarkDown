@@ -30,7 +30,7 @@
     - The job is blocked and loses the processor
     - The job is unblocked when the scheduler grants it $n_{k}$ units of resource $R_{k}$
 ## [[Resource access control protocols]]
-- A [[Resource access control protocols]], or simply an access-control protocol, is **a set of rules** that govern:
+- A [[Resource access control protocols]], or simply an access-control [[protocol]], is **a set of rules** that govern:
     - when and under what conditions each **request for resource is granted** and
     - how jobs requiring resources are **scheduled**.
 - More detail the **undesirable effects** of resource contention
@@ -56,7 +56,7 @@
 - [[Non-preemptable Critical Sections - NPCS]]
 - [[Priority inheritance protocol]]
 - [[Basic priority ceiling protocol]]
-- Stack-based priority ceiling protocol
+- Stack-based priority ceiling [[protocol]]
 
 
 #REAL-TIME_SYSTEM 

@@ -22,7 +22,7 @@ this protection must be ensured during Storage - processing - or in transit
 * Availability 
 	* Resources and Services are available for legitimate users
 * Authenticity and [[authentication]]
-	* Unambiguous(clear) identification of the sender of information or a communication peer
+	* [[Unambiguous]](clear) identification of the sender of information or a communication peer
 * Nonrepudiation
 	* Ability to prove that a given message was sent and by whom to a third party not involved in communication
 * Authorization
@@ -56,7 +56,7 @@ this protection must be ensured during Storage - processing - or in transit
 * Vulnerabilities are not necessarily discovered and/or exploited
 * But there is a risk thereof
 * Risk contains
-	* Occurrence probability
+	* Occurrence [[probability]]
 	* consequences
 * Alternatives:
 	* Leave (known) vulnerabilities AS IS
@@ -65,10 +65,10 @@ this protection must be ensured during Storage - processing - or in transit
 	* Choice depends on aims of the decision maker
 	* If purely economic: Choose alternative with lowest expected mean cost
 	* Practical problem: Occurrence probabilities and consequences are different to guess or estimate
-# IT-Security as a Process
+# IT-Security as a [[Process]]
 - Ensuring IT Security is not a singulary event:
 	- New risks and vulnerabilities
 	- New systems
 	- Organizational changes
-- IT-Security is a process and must be continually checked and adapted
+- IT-Security is a [[process]] and must be continually checked and adapted
 #IT_SECURITY

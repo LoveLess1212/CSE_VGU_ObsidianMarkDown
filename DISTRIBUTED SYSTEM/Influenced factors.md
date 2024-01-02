@@ -1,6 +1,6 @@
 There are three influenced factors:
 - Performance
-    - Latency
+    - [[Latency]]
     - Bandwidth
 - [[Clock events]]
 - Odering

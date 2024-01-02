@@ -4,7 +4,7 @@
 #### Agreements
 * Include:
 	* Rules for connection establishment and clearing
-	* Method of synchronization between sender and receiver
+	* Method of [[synchronization]] between sender and receiver
 	* measures for the detection and treatment of transmission errors
 	* Definition of  valid messages
 	* Format and encoding of messages

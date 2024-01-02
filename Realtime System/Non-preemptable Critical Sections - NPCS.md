@@ -1,4 +1,4 @@
-- Simplest resource access control protocol
+- Simplest resource access control [[protocol]]
     - When a **a jobs acquires** a resource it is **scheduled with highest priority** in a non-preemptable manner
     - **Deadlock can never occur**
 - ### Advantages:

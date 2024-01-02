@@ -1,0 +1,101 @@
+
+Apply Blockchain in the Vietnam Real Estate Market
+
+Phi Dinh Van Toan - 17413
+Tra Nguyen Ngoc - 17156
+Luong Gia Bao - 17535
+Vietnamese - German University
+Compulsory Elective Subject.
+Instructor: Le Lam Son
+Date: 20/11/2023
+
+
+Introduction
+According to (Jones Lang LaSalle IP, Inc., 2022), Vietnam is ranked 52/100 on real estate transparency index list, which is a good sign for the real estate market in Vietnam, however, it is nearly the lowest among the region. There are many things to be done to improve the transparency of the real estate market. As stated in the report advances in technology play a vital role in making the real estate market more transparent. One of the technologies that can be considered implemented in the real estate market is blockchain.
+Blockchain is a technology that was created based on cryptography by Nakamoto (2008). Since then, it has been used in many fields such as finance, banking, insurance, healthcare, supply chain, etc and has proven its potential. The real estate market is no exception.
+As Natarajan et al. (2017) state Blockchain is a particular type of distributed ledger technology (DLT) where each piece of information is stored in a Block and linked to by a virtual chain using hash and verified through cryptography to achieve immutability and transparency. It provides a huge advantage for the real estate market, as the real estate market is a market that has many intermediaries, and the transaction process is very complicated. The blockchain technology can help to reduce the number of intermediaries and make the transaction process more transparent.
+According to Podshivalov (2022) in the real estate industry, blockchain technology can help in four main directions of development, which are the implementation of blockchain in document flow and transaction process, Implementation of blockchain in maintaining real estate rights, real estate tokenization and Create Virtual land registry using VR (Virtual Reality) and AR(Augmented reality) technology.
+In this article, we will just discuss the first direction, the implementation of blockchain in document flow and transaction process.
+As is
+	
+	 At this moment in the Vietnam real estate process of buying or renting assets, the contracts can be involved by many arrangements related to third parties as witnesses and notary paperworks, with the limit date of expiry is no more than thirty days(Article 95 Real Estate Law 2013). As stated in the Real Estate Assets Exchange Guideline by Minh Khue Law Company(Nong Thi, 2023a), the process can be divided into four crucial steps.
+
+Step 1: Deposit for the purchase and agreement on of real estate
+This is an essential requirement while waiting for the contract signing date, without the reconciliation from both sides would cease at this point, also to minimize the arrange time of the contract declaration. The amount of the deposit depends on the agreement between the involved parties, which arrange around 2% to 3% of assets value. The duration of the deposit period also heavily depends on agreement.
+
+Step 2: Notarize the contract for the purchase and sale of the property
+The notarization of the purchase and sale of real estate occurs concurrently, with the buyer paying the seller in full and getting the essential legal documents related to the property as required by the notary office. At the notary office, involved parties will ensure to the fact that all payment processes have been fulfilled when they sign the contract. The notary office will then provide the parties concerned the notarized document.
+
+Step 3: Transfer the certificate the right to use assets or Certificate of housing ownership and residential land use rights.  
+Once the procedures are completed, the buyer will bring the finished documents to the Department of Housing and Real Estate Market Management, which is responsible for managing real estate, to proceed with the transfer of ownership and obtain the new ownership Certificate the right to use assets or Certificate of housing ownership and residential assets use rights to the new owner. Depending on the pre-agreed conditions, involved parties must be responsible for paying taxes. Subsequently, the buyer will submit the complete set of documents to the Department of Housing and Real Estate Market Management for payment and the transfer of ownership procedures.
+
+Step 4: Complete the procedures and obtain the ownership certificate.
+After completing the procedures for buying and selling real estate and fulfilling taxes, the buyer is required to bring all the relevant documents to the People's Committee of the local authority where the property transaction took place. By reviewing the documents and verifying that all parties meet the legal qualification, the relevant department will proceed with the transfer of the ownership certificate in accordance with the prescribed legal procedures.
+
+As the processes have been detailed, the whole operation from deposit to complete the documents is noticeably long and complicated in real time. Furthermore, that there is a limit or lack of option to either reliability in the first step or enforceability of the contract in the second, additionally depends more on the time of the involved parties' communication with local authority at last two.
+
+As the four steps of the process have been outlined, it is apparent that the current transaction journey from deposit to finalizing ownership documents is lengthy and intricate in practice. Several inefficiencies exist. In step one, reliability issues can arise when initially agreeing the deposit terms. Step two then lacks enforceability of the sale contract without third party oversight. Finally, steps three and four rely heavily on involvement from local authorities over an extended period, introducing delays and possible errors from prolonged communication activities between transacting parties. The overall process as it stands presents obstacles in terms of timeliness, legal compliance, and trust between buyers and sellers. Streamlining is needed to address these challenges.
+
+To be
+We implement the blockchain technology in the real estate market in Vietnam to make the process of buying and selling real estate more transparent and reduce the number of intermediaries. The blockchain technology will strongly involve in step 1 and step 2 of the process, which are deposit for the purchase and agreement on of real estate and notarize the contract for the purchase and sale of the property to clear the need of third parties and automate document process, reduce the risk of fraud and increase the transparency of the process. The blockchain technology will also be used in step 3 and step 4, which are transfer the certificate the right to use assets and complete the procedures and obtain the ownership certificate to automate the process and reduce the time of the process. We are also apply some algorithm in step 1 and 2 to reduce the risk of tax evasion or taking advatage of the system to fraud.
+2.1 Node
+	Nodes play a crucial role in a blockchain system, these nodes can be devices connected together in a network. The nodes help maintain the decentralized nature of a blockchain and validate transactions, also each node contains a copy of the entire blockchain ledger [], which contains a record of all transactions and smart contracts executed on the network. In our system, these nodes can be:
+Buyer: those who want to buy a real estate through our system
+Seller: those who sell real estate
+Notary Office: plays a role in notarizing document
+Government: Help checking the detail of real estate
+Tax Office:  tax collection
+According to Land Trading Law in Viet Nam[], all land sales must be approved by the government notary office and both parties (buyer and seller) must pay a certain tax after completing the buy. By that, our system will include the notary office and the tax office, with this everything can be handled in our system instead of the physical way.
+2.2 Consensus Mechanism
+	It is a method used to archive agreement[], trust, ensure that all nodes agree on the validity and order of transactions, prevent double-spending and ensure the integrity of the real estate records.
+	In our system, we will use Practical Byzantine Fault Tolerance (PBFT) as a consensus method for our entire system. The PBFT ensures that every new node entering the system must be approved by other nodes[], this will help ensure that all nodes in the system are always secure. Therefore, there will be no need for a third party to appear for the transaction since all nodes are entrusted to each other. Moreover, PBFT is fast in achieving finality, confirmation with seconds and resilience against attacks due to its fault-tolerant design[]. With these two advantages, PBFT algorithm is used in our system to ensure all transactions and money transfer will be fast, correct and strong resistance against malicious attacks.
+
+2.3 Block
+	The block in a blockchain system is a fundamental component that contains a set of transactions and relevant information. A block will record secure transactions data and form a linear chain of blocks. [54]
+A block will contain a unique identifier called a hash id and when a new block is created, it will connect to the previous block and its id will be the hashed from the previous block’s id [54]. By linking blocks together through hash id with the previous block, the blockchain forms a distributed ledger that contains the history of transactions in secure. From that, every block contributes to the blockchain network decentralized structure and upholds its integrity. The hash helps the block system to ensure its integrity and links it to the previous block.  By that, if any data that is changed within the block, it will result in an entirely different hash and make it tamper-evidence.
+
+
+
+
+	The image above shows briefly which information of a block in our blockchain system will contain. A block will always contain a  hash ID in order to maintain the integrity as we said, Buyer ID and Seller ID in the block help to know who this transaction took place between. Each contract must be separate from each other to be identifiable so Contract ID is essential. Since every contract must have its own status like deposit status to show whether the money transaction between the buyer and seller is completed or not, tax paying status due to law[], error status to help manage legal purchase and contract status.
+	In order to maintain the integrity of the system and easy to track down the block by hash ID, all blocks must contain these information and they are considered permanent and unchangeable.
+
+2.4 Smart Contract
+	Smart contract is a program that stores on the blockchain and will execute when predetermined conditions are met [Nick Szabo]. Smart contract allows parties to transact and interact with each other without intermediaries. It is a key feature in blockchain technology, helping enable automation, transparency and trust in various applications. During the execution of the function in smart contracts, the status of variables can be changed depending on the logic implementation.
+	The real estate sector was primarily focused on the broker's role in facilitating transactions between sellers and buyers. Moreover, most of the transactions were offline and needed the involvement of face-to-face communication with the stakeholders []. With the blockchain technology, the transaction process can now be digitized with enhanced security and benefits. The smart contracts can be executed between the buyer and seller therefore we can remove the need of the middleman in our process [].
+
+Smart contract BPMN structure
+As we said above (node), all nodes will be included in our system and the Dapp processor will be the system which runs the smart contract when conditions are met.
+
+	
+
+
+	From the BPMN, we will understand briefly how our system works. As we can see that the buyer and seller will be the components that initiate the smart contract. When a smart contract is activated or created, it will update to the on-chain database so that every database information is accurate and relevant.
+
+Smart contract create
+
+
+	When request to buy and request to deposit an amount of money are satisfied, the system will trigger the Dapp processor to create a smart contract. In this BPMN process, the system want to create a block so that it will need information from the on-chain database and if whether the buyer and seller set a price below the market price to fraudulently on paying taxes, the system will throw out an error message event to the system, so that it can avoid the fraudulent transaction. If everything is alright, it will continue the process.
+
+
+	After create the contract, the system will send the information about the contract to the government side in order to check the real estate either it is being conflicted that being sold on other market or not to prevent unwanted incidents and if it happens, the system will create a block with contract status is terminated. If everything is all good, the notary office will create a contract for the buyer and seller. After that, the system will activate the smart contract for the buyer to deposit the remaining amount of money for the seller.
+
+	For all money transactions, the system will record and create a block for it and update to the on-chain database.
+
+	
+	After both buyer and seller sign the contract, the contract will be sent back to the notary office for the notarization. From this, the contract is completed, however both buyer and seller must pay a tax according to the provision of real estate sales law []. Therefore, the system will have a tax receiver system to ensure that both parties have paid taxes. After the system recognizes that both parties have successfully paid taxes, it will send a signal to create a new certificate for both parties, this will create a block to record a new generated certificate and now the contract has successfully fulfilled.
+	
+
+
+Results
+This report presents a blockchain-based system for the real estate market in Vietnam. The system is designed to help reduce the number of intermediaries and automate the paperwork process, thus make the process of buying and selling real estate more transparent and faster. It point out the advantages of using blockchain in the real estate market and how it can help to improve the real estate market in Vietnam. 
+However, for the adoption of this system, there are still a lot of law-related things that should be carefully considered and discussed with the government to ensure that the system can be implemented. The risk-benefit analysis should also be done to ensure that the system is worth implementing as our report only studies mainly about the technical aspect of the system and transforms the traditional process into a blockchain-based process.
+The system can be further finalized by developing a user interface for the system, finalize the smart contract and the consensus mechanism, and test the system with real data to ensure that the system can be implemented in real life. The implementation can totally replace the notary office and the tax office in the real estate market in Vietnam, whose role is just to ensure the legality of the transaction and collect taxes, thus reduce the cost of the transaction and make the process faster and more transparent, also reduce the risk of bias and fraud.
+
+This report outlined a proposed blockchain-based system that aims to modernize and improve transparency in Vietnam's real estate transaction process. The presented technical framework demonstrated how integrating blockchain and smart contract technologies could reduce intermediaries, automate paperwork, and streamline ownership transfers.
+
+However, further development and testing are still needed before full implementation. The consensus mechanism and smart contracts require finalization. Additionally, user interfaces must be developed to ensure the system is user-friendly. Pilot testing with real transaction data is also important to evaluate system performance under real-world conditions.
+
+While the potential benefits of increased efficiency, transparency and fraud prevention were shown, legal and regulatory factors must also be addressed. Close cooperation with relevant government authorities will be critical to discussing amendments that enable a supportive legal framework. A risk-benefit analysis is likewise necessary to validate that the system's adoption merits investment.
+
+Subject to the successful completion of the above steps, the proposed system could ultimately modernize and replace the roles of traditional intermediaries such as notaries in Vietnam's real estate market. By streamlining transaction processes and record-keeping using blockchain, costs could be reduced while maintaining transparency and accountability standards throughout property purchases and sales. Widespread implementation may in turn accelerate real estate market development across Vietnam.

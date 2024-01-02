@@ -4,7 +4,7 @@
 		* Fragmentation means that logically related clusters are not located physically next to each other
 		* Objective: Avoid frequent movements of the HDDs arms
 			* If the clusters of a file are distributed over the HDD, the heads need to perform more time-consuming position changes when accessing the file
-			* For SSDs the position of the clusters is irrelevant for the latency
+			* For SSDs the position of the clusters is irrelevant for the [[latency]]
 # Defragmentation
 * *Problem*:
 	* Writing data to a drive, always leads to fragmentation

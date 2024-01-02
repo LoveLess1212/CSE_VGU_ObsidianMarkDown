@@ -46,3 +46,5 @@ Furthermore, we received module register form for a lot of module that we are no
 
 7.6 Provision of academic certificates and other documents has been accurate:
 * The scholarship money was reduced after applied for the scholarship.
+
+

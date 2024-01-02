@@ -16,20 +16,20 @@
 	1. the Bridge will forward all frames
 9. Why do Bridges try to avoid loops?
 	1. Loop can reduce performance and can even lead to netowrk failure
-10. What protocol use Bridges to handle loops?
-	1. Spanning tree protocol
+10. What [[protocol]] use Bridges to handle loops?
+	1. Spanning tree [[protocol]]
 11. Explain spanning tree
 	1. Spanning tree is a subgraph of of the graph that cover all node but remove edges to make cycle free 
 12. What information contains the Bridge ID according to the IEEE?
-	1. Bridge priority and address of mac address of the bridge port with lowest port ID
+	1. Bridge priority and address of [[mac address]] of the bridge port with lowest port ID
 13. What is the difference between the Bridge ID according to the IEEE and the Cisco extended version of the Bridge ID?
 	1. In Cisco extended version of Bridge ID, the Bridge ID now include Bridge priority (4 bits) and VLAN tag(16 bits) instead of 16 bits bridge priority
 14. How many priority values can be encoded with the Bridge ID according to the IEEE?
 	1. 65536 values
 15. How many priority values can be encoded with the Cisco extended version of the Bridge ID?
 	1. 2^4 = 16 values
-16. Explain what a Bridge Protocol Data Unit (BPDU) message is and for what purpose it is used.
-	1. The Bridge exchange information about the Bridge IDs and path cost via speacial frames, calles Bridge Protocol Data Unit (BPDU). The message is used by Spanning Tree Protocol.
+16. Explain what a Bridge [[Protocol]] Data Unit (BPDU) message is and for what purpose it is used.
+	1. The Bridge exchange information about the Bridge IDs and path cost via speacial frames, calles Bridge [[Protocol]] Data Unit (BPDU). The message is used by Spanning Tree [[Protocol]].
 17. What is the selection criteria for determining, whether a Bridge becomes the Root Bridge?
 	1. Select the bridge with the lowest priority
 **18. What is a Designated Bridge and what is its task?
@@ -44,14 +44,14 @@
 	1. A fully switched network is a network where each port of the switches connect with only one network device -> no collision 
 # Ex 5
 1. How are physical network addresses called?
-	1. Mac address (Media Access Control)
-2. What protocol uses Ethernet for the address resolution?
-	1. Ethernet uses the ARP - (Address Resolution Protocol)  to resolute the Logical address of the Network Layer (IPv4 address) to MAC addresses
-	2. For IPv6, NDP (Neighbor Discovery Protocol) provides the identical functionality and operates similar way
+	1. [[Mac address]] (Media Access Control)
+2. What [[protocol]] uses Ethernet for the address resolution?
+	1. Ethernet uses the ARP - (Address Resolution [[Protocol]])  to resolute the Logical address of the [[Network Layer]] (IPv4 address) to MAC addresses
+	2. For IPv6, NDP (Neighbor Discovery [[Protocol]]) provides the identical functionality and operates similar way
 3. Who receives a frame with the destination address FF-FF-FF-FF-FF-FF?
 	1. This is broadcast address -> everyone in the network receive this frame
 4. What is MAC spoofing?
-	1. MAC address can be modified via software
+	1. [[MAC address]] can be modified via software
 # Ex 6
 1. One way to mark the frames’ borders is via character count in the frame header. Name a potential issue that can arise from this method
 	1. If the field count is modified during transmission, the receiver is unable to correctly detect the end of the frame
@@ -62,7 +62,7 @@
 
 # Ex 11
 1. Why do computer networks use protocols for media access control?
-	1. With Ethernet and WLAN, the network devices or stations use a shared transmission medium. Media Access Control Protocol needed to coordinate the media access to avoid collisions. 
+	1. With Ethernet and WLAN, the network devices or stations use a shared transmission medium. Media Access Control [[Protocol]] needed to coordinate the media access to avoid collisions. 
 2. Why use Ethernet and WLAN different media access control methods?
 	1. In WLAN it is not guaranteed that all stations can detect all collisions
 	2. In Ethernet with a shared transmission medium, each participant receives transmission of all other participant.
@@ -88,7 +88,7 @@
 		1. reservation of the transmission medium cause delay
 		2. [[RTS]] and [[CTS]] frames are [[overhead]]
 # Exercise 12
-1. What is Address Resolution Protocol?
+1. What is Address Resolution [[Protocol]]?
 	1. ARP is use to resolve IP address from [[Network Layer]] to [[Mac Address]] of Data Link Layer
 2. What is [[ARP]] Cache?
 	1. [[ARP]] cache is a table, contain IP address and [[Mac Address]] that go together. It is used to speed up the [[ARP]] process 

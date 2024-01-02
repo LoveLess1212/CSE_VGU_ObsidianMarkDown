@@ -1,5 +1,5 @@
 ## Intro
-* [[DISTRIBUTED SYSTEM/Cryptography|Cryptography]] is the study of mathematical techniques related to aspects of information security such as confidentiality, data integrity, entity [[authentication]], and data origin [[authentication]] 
+* [[Cryptography]] is the study of mathematical techniques related to aspects of information security such as confidentiality, data integrity, entity [[authentication]], and data origin [[authentication]] 
 ## Classical Encryption Methods
 * Substitution
 	* e.g., mono-alphabetical substitution 
@@ -15,8 +15,8 @@
 * Kerckhoffs' principle: Security should not depend on the secrecy of the method
 * Our focus on public methods only
 ## A Word of Caution
-* [[DISTRIBUTED SYSTEM/Cryptography|Cryptography]], i.e. the encryption methods themselves, is a tool that helps to secure networks and systems
-* The protocols, applications and environments using [[DISTRIBUTED SYSTEM/Cryptography|cryptography]] might have conceptual weaknesses, implementation bugs or other caveats that could allow to compromise the protection, e.g.,
+* [[cryptography]], i.e. the encryption methods themselves, is a tool that helps to secure networks and systems
+* The protocols, applications and environments using [[cryptography]] might have conceptual weaknesses, implementation bugs or other caveats that could allow to compromise the protection, e.g.,
 	* By evading the cryptographic system
 	* by breaking the cryptographic system
 * Using a strong cryptosystem does not guarantee security

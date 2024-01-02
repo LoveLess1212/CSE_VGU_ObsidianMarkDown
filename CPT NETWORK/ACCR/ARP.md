@@ -1,7 +1,7 @@
 > Address Resolution [[Protocol]] 
 > used to resolve IP address of the [[Network Layer]] of [[MAC address]] of the [[Data Link Layer]]
 # function
-* If a network device wants to transmit data to a receiver, it uses the receiver's IP address on the Network Layer
+* If a network device wants to transmit data to a receiver, it uses the receiver's IP address on the [[Network Layer]]
 * But on the [[Data Link Layer]], the [[MAC address]] is required
 	* Therefore, address resolution must be carried out in the [[Data Link Layer]]
 	* To find out the [[MAC address]] of a Network device in the LAN, ARP sends a frame with the MAC broadcast address FF-FF-FF-FF-FF-FF-FF as destination address

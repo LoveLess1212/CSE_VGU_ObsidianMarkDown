@@ -18,10 +18,10 @@ tags:
 * Microservices architecture
 ### Considerations
 * The network is not reliable
-* Latency is not zero
+* [[Latency]] is not zero
 * Bandwidth is not infinite
 * The network is not secure
-* The network topology can change at any time
+* The network [[topology]] can change at any time
 * There is more than one administrator
 * Remote access costs money
 * The network is not homogeneous

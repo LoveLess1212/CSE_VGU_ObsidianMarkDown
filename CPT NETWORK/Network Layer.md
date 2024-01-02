@@ -1,5 +1,5 @@
 # Function of the Network Layer
-* Sender: Pack segments of the transport Layer into packets
+* Sender: Pack segments of the [[transport Layer]] into packets
 * Receiver: Identify the packets inside the frames of [[Data Link Layer]]
 * Provide logical address (IP address)
 * Determinate the best path to the destination = Routing

@@ -2,11 +2,11 @@
 tags:
   - IT_SECURITY
 ---
-1. How is a maliciously injected script which is permanently stored on the target servers,such as in a database, in a message forum, visitor log, comment field, etc called which the victim retrieves from server when it requests information?
-	1. Stored XSS
-2. Define the term Command Injection
-  - Command injection is an attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application. Command injection attacks are possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.) to a system shell.
-3. If http://192.168.1.50/dvwa/vulnerabilities/xss_r/?name=<script>alert("Alarm!")</script># results in the Java-Script code being executed, it is an example of
+1. How is a maliciously injected script which is permanently stored on the target servers,such as in a [[database]], in a message forum, visitor log, comment field, etc called which the victim retrieves from server when it requests information?
+	1. Stored [[XSS]]
+2. Define the [[term]] [[Command Injection]]
+  - [[Command injection]] is an attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application. [[Command injection]] attacks are possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.) to a system shell.
+3. If http://192.168.1.50/dvwa/vulnerabilities/[[[[[[xss]]]]]]_r/?name=<script>alert("Alarm!")</script># results in the Java-Script code being executed, it is an example of
   - Reflected XSS
 4. explain CSRF
   - CSRF: cross-site request forgery, is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated.
@@ -32,7 +32,10 @@ tags:
 > nên mình có thể nhét 1 cặp tag script vào giữa, nếu form không được validate, thì web của mình sẽ chạy đống script đó, như chưa có gì xảy ra
 	
 6. explain Dom-based XSS
-	- 
+	- is an XSS attack wherein the attack payload is executed as a result of modifying the DOM "environment" in the victim's browser used by the original client side script, so that the client side code runs in an "unexpected manner"
 7. explain stored XSS
+	* Stored XSS generally occurs when user input is stored on the target server, sa in a database, in a message forum, visitor log, comment field, etx. And then a victim is able to retrieve the stored data from the web application without that data begin made safe to render in the browser.
 8. explain command injection
-9. explain SQL injection
+	1. Command injection is **a cyber attack that involves executing arbitrary commands on a host operating system (OS)**.
+9. explain [[SQL]] injection
+	1. [[SQL]] injection usually occurs when you ask a user for input, like their username/user id, and instead of a name/id, the user gives you an [[SQL]] statement that you will **unknowingly** run on your [[database]].

@@ -3,7 +3,7 @@
 # Devices
 * MQTT is suited for devices with 
 	* Low-bandwidth
-	* High-latency ([[Latency]])
+	* High-[[latency]] ([[Latency]])
 	* Unreliable network
 * -> IOT system
 # Components
@@ -42,7 +42,7 @@
 	* Users can join or leave a conversation
 
 # Strength
-* Lightweight protocol
+* Lightweight [[protocol]]
 * Messaging technique
 * Minimized data packet
 * Low power usage

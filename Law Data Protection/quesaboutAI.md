@@ -14,10 +14,10 @@ As an IT expert, please point out specific data risks and explain them, in parti
 ---
 Assume that you are working for the Compliance Department in your company which is operating in the field of sports
 
-Please discuss with your colleagues about what should be done in order to comply with the GDPR principles. 
+Please discuss with your colleagues about what should be done in order to comply with the [[GDPR]] principles. 
 
 Your task should focus on your company’s particular field and should be in the form of a checklist or recommendation paper.
-1. Update - making public data privacy policies and process used for GDPR
+1. Update - making public data privacy policies and process used for [[GDPR]]
     1. how individual(player - audience ) can 
         request their data
         Update their data
@@ -28,6 +28,6 @@ Your task should focus on your company’s particular field and should be in the
     5. How the data will be secured
     6. Purpose - necessity of the data collection
 ---
-What are specific means/measures to comly with each GDPR principle?
-1. Lawfulness, fairness and transparency
+What are specific means/measures to comly with each [[GDPR]] principle?
+1. Lawfulness, fairness and [[transparency]]
     

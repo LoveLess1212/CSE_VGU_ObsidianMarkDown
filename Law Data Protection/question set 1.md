@@ -2,32 +2,28 @@
 tags:
   - LAW_DATA_P
 ---
-1. *What are the core principles of [[GDPR]], and why are they important for data protection? \
-	1. **[[Lawfulness]], [[fairness]], and [[transparency]]**
-	2. **Purpose limitation**
-	3. **Data minimization** 
-	4. **Accuracy**
-	5. **Storage limitation:** 
-	6. **Integrity and confidentiality (security):**
-	7. **Accountability:** 
->They are important because they provide a framework for organizations to handle personal information responsibly and transparently. They also help to ensure that [[personal data]] is processed in a way that is fair to the individual.
-2. *How do we explain the principle of [[lawfulness]], [[fairness]], and [[transparency]] in data processing under [[GDPR]]? 
-	1. 
-3. *How does the principle of purpose limitation relate to data processing? What does it require? 
-4. *What does [[GDPR]]'s principle of data minimization mean, and how can organizations implement it? 
-5. *What is the principle of accuracy, and how can organizations ensure data accuracy and quality? 
-6. *Explain the [[GDPR]] principle of storage limitation. How long can [[personal data]] be retained under this principle? 
-7. *What are the rights of data subjects under [[GDPR]], and how do they align with the principles of the regulation? 
-8. *How does the principle of integrity and confidentiality (security) relate to the protection of [[personal data]]? 
-9. *What does “accountability” mean under [[GDPR]] and its relationship to data protection principles? 
-10. *How does the principle of data protection by design and by default apply to product and system development? 
-11. *How do the principle of [[transparency]] and individuals' rights relate to access their own [[personal data]].
-12. *How do the principles of [[consent]] and lawful processing align with [[GDPR]] requirements? 
-13. *What safeguards and measures are recommended for international data transfers, in accordance with [[GDPR]] principles? 
-14. *How does the principle of the right to be forgotten (erasure) align with the data processing principles? 
-15. *Examples of how organizations can demonstrate compliance with [[GDPR]]'s principles? 
-16. *What are the key obligations and responsibilities of data controllers and data processors in upholding [[GDPR]] principles? 
-17. *How does [[GDPR]] address the protection of children's [[personal data]], and what principles are involved? 
-18. What is the role of Data Protection Impact Assessments (DPIAs) in ensuring [[GDPR]] compliance with the principles? 
-19. What does the principle of accountability mean and the need for documentation and records of data processing activities. 
-20. How often should organizations review and update their data protection policies and practices to align with [[GDPR]] principles?
+**
+1. Under the GDPR, sensitive personal data is considered a special category of personal data that requires additional protection due to its sensitive nature.
+2. Special category data includes information such as racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data for the purpose of uniquely identifying an individual, health data, and data concerning a person's
+sexual life.
+3. Processing of special category data is generally prohibited unless one of the ________ conditions set out in Article 9 of the GDPR applies.
+4. One of the conditions for processing special category data is explicit ________ consent, which must be freely given, specific, informed, and unambiguous.
+5. Special category data can also be processed when it is necessary for ________ purposes, such as for the provision of healthcare or social protection.
+6. Data controllers must implement ___security_____ measures to protect special category data, as it is particularly sensitive and requires enhanced security.
+7. Organizations processing special category data must conduct _data protection_______ impact assessments to evaluate and mitigate risks associated with the processing.
+8. Violations of the GDPR's rules regarding special category data can result in __substantial______ fines and penalties.
+
+Terms:
+Special category, sexual, personal, legal, written, health, security, data protection, substantial
+
+How do the principle of transparency and individuals' rights relate to accessing their own personal data?
+- The GDPR requires that organizations provide individuals with information about the processing of their personal data in a concise, transparent, intelligible, and easily accessible form, using clear and plain language.
+How do the principles of consent and lawful processing align with GDPR Requirements?
+- The GDPR requires that organizations obtain consent from individuals before processing their personal data, and that the processing of personal data be lawful, fair, and transparent.
+What safeguards and measures are recommended for international data transfers, in accordance with GDPR principles?
+- The GDPR requires that organizations implement appropriate safeguards and measures to protect personal data when transferring it outside of the EU. These safeguards and measures include the use of standard contractual clauses, binding corporate rules, and the EU-U.S. Privacy Shield Framework.
+How does the principle of the right to be forgotten (erasure) align with the data processing principles? 
+- The GDPR requires that organizations erase personal data when it is no longer necessary for the purpose for which it was collected, or when the individual withdraws consent and there is no other legal basis for processing the data.
+15.Examples of how organizations can demonstrate compliance with GDPR Principles?
+- Organizations can demonstrate compliance with the GDPR by implementing appropriate technical and organizational measures, such as data protection impact assessments, data protection by design and by default, and data breach notification procedures.
+What are the key obligations and responsibilities of data controllers and data processors in upholding GDPR principles?
