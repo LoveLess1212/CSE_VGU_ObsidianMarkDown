@@ -6,7 +6,7 @@
 	* Here, process have full access to the hardware
 	* The kernel can also address physical memory (Real Mode)
 * In ring 3 (= **user mode**) run the applications
-	* Here, processes can only access [[virtual memory]] (Protected Mode)
+	* Here, processes can only access [[Todo tomm]] (Protected Mode)
 # System calls
 * If a user-mode process must carry out a higher privileged task (e.g. access hardware), it can tell this the kernel via a *system call*
 	* A System call is a function call in the operating system that triggers a switch from user mode to kernel mode (*[[Context switch]]*)
@@ -35,6 +35,6 @@
 	* Context switching between user mode and kernel mode 
 * Advantages which result in using a library:
 	* Increased *portability*, because there is no or very little need for the user mode processes to communicate directly with the kernel
-	* Increased *security*, because the user mode processes can not trigger the context switch to kernel mode for themselves
+	* Increased *security*, because the user mode processes can not trigger the [[context switch]] to kernel mode for themselves
 * 
 #OPERATING_SYSTEM 

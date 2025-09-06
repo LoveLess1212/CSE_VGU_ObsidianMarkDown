@@ -33,13 +33,13 @@
 	* The process can currently not be executed and is waiting for the occurence of event or satisfaction of event             
 ![[Pasted image 20221212223508.png]]
 * In practice, operating System implements multiple queues for processes blocked state![[Pasted image 20221212223647.png]]
-* During state transition, the process control block of the affected process is removed from the old status list and inserted into the new status list
+* During state transition, the [[process control block]] of the affected process is removed from the old status list and inserted into the new status list
 * No separate list exists for processes in running state
 
 # Process State Model with 5 States
 * It makes sense to expand the process state model with 3 states by 2 further process states
-	* **new:** The process (process control block) has been created by the operating system but the process is not yet added to the queue of process in ready states
-	* **exit::** The execution of the process has finished or was terminated, but for various reasons the process control block still exists
+	* **new:** The process ([[process control block]]) has been created by the operating system but the process is not yet added to the queue of process in ready states
+	* **exit::** The execution of the process has finished or was terminated, but for various reasons the [[process control block]] still exists
 	* Reason for the existence of the process states **new** and **exit** On sone systems, the number of executable processes is limited in order to save memory and to specify the degree of multitasking ![[Pasted image 20221212224820.png]]
 	* 
 # Process State Model with 6 States

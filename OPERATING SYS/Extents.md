@@ -1,5 +1,5 @@
 # Problem:
-## [[Metadata]] [[overhead]]
+## [[OPERATING SYS/metadata]] [[overhead]]
 * Every [[inode]] at [[block addressing]] addresses a certain number of [[cluster]] numbers directly
 * If a file requires more [[clusters]], they are indirectly addressed
 * This addressing scheme causes rising [[overhead]] with rising file size
@@ -24,7 +24,7 @@
 ## Structure of NTFS
 * The file system contains a Master File Table
 	* It contains the ref of the files to the [[cluster]]
-	* Also contains the [[metadata]] of the files
+	* Also contains the [[OPERATING SYS/metadata]] of the files
 		* The content of small files <= 900 Bytes is stored directly in the MFT
 * When a partition is formatted as, a fixed space is reserved for the MFT
 	* 12.5% of the partition size is reserved for the MFT by default

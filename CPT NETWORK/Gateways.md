@@ -6,7 +6,7 @@
 	* For this [[reason]], a [[Protocol]] conversion at the [[Network Layer]] is mostly not necessary
 * In the past, in the network preferences of a terminal device, the IP address of the Gateway was specified as Default Gateway
 	* Today, this filed contains the router address, because a Gateway is usually not required any longer
-		* Thus, the [[term]] Default Router would be suited better
+		* Thus, the [[FFPP/Term]] Default Router would be suited better
 		* ![[Pasted image 20221220220325.png]]
 	* VPN-Gateways may operate on [[Network Layer]]
 		* They provide secure access to remote protected networks( e.g intranet of a university or a company) over insecure public networks

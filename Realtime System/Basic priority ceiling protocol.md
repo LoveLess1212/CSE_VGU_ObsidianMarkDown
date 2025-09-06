@@ -30,7 +30,7 @@ Whenever a job J requests a resource R at time t, one of the following two condi
 - $J_{l}$ executes at its inherited priority **until the time when it releases every resource** whose priority ceiling is equal to or higher than $\pi(t)$; at that time, the priority of $J_{l}$ returns to its priority $\pi_{l}(t')$ at the time t' when it was granted the resource(s)
 ## Enhancing the priority ceiling [[protocol]]
 - The basis priority ceiling [[protocol]] gives good performance, but the defining rules are complex
-- Also, can result in high context switch overheads due to frequent blocking if many jobs contend for resources
+- Also, can result in high [[context switch]] overheads due to frequent blocking if many jobs contend for resources
 ![[Pasted image 20230618015221.png]]
 - This has led to two modifications to the [[protocol]]:
         - The stack-based priority ceiling [[protocol]]

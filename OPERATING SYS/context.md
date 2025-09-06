@@ -1,10 +1,10 @@
 * 3 types context
 	* User context
-		* Content of the allocated address space ([[virtual memory]])
+		* Content of the allocated address space ([[Todo tomm]])
 	* Hardware context
 		* CPU registers ([[HDD]], [[SSD]] ...)
 	* System Context
-	* The operating system stores the information of the hardware context and system context in the process control block
+	* The operating system stores the information of the hardware context and system context in the [[process control block]]
 # Hardware context
 * is the content of the CPU [[register]] during process execution
 * [[register]] whose content need to be backed up in the event of a process switch:

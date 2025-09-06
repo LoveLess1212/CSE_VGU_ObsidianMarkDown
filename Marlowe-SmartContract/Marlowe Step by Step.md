@@ -22,7 +22,7 @@ Observations will have a value at every step of execution. On the other hand, ac
 * making a choice between various alternatives, including an oracle value, or
 * notifying an external value of some kind.
 # Oracles
-Oracles are begin developed for the Cardano blockchain in general, and will be available for use within [[Marlowe]] on Cardano. In the meantime, we have introduced and oracle prototype, which is implemented in the [[Marlowe]] Playuground.
+Oracles are begin developed for the Cardano [[blockchain]] in general, and will be available for use within [[Marlowe]] on Cardano. In the meantime, we have introduced and oracle prototype, which is implemented in the [[Marlowe]] Playuground.
 
 We model Oracles as choices that are made by a participant with a specific Oracle role: "kraken"
 

@@ -13,7 +13,7 @@
 	* The [[period]] of a task defined as minimum inter-release time of jobs in tasks
 	* There are no aperiodic or sporadic tasks
 	* Scheduling decisions made immediately upon job release and completion
-	* [[Context]] switch [[overhead]] negligibly small, unlimited priority levels
+	* [[OPERATING SYS/context]] switch [[overhead]] negligibly small, unlimited priority levels
 # Why focus on uniprocessor scheduling
 * Poor worst-case performance of [[Priority-driven]] algorithms  in dynamic environments
 * Resource access is very complicated to analyze

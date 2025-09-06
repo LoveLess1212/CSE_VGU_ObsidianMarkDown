@@ -1,6 +1,6 @@
 #### AKA Index node
 ##  used to Store
-- [[metadata]]
+- [[OPERATING SYS/metadata]]
 	- UID - GID
 	- access privileges
 	- ...
@@ -9,3 +9,18 @@
 * All Linus [[File Systems]] base on the functional principle of inodes
 
 #OPERATING_SYSTEM 
+
+
+# Heading 1
+## Heading
+### heading
+* asdflkjas
+* asdfasdf
+	* sdfsdf
+
+1. asdfasdf
+2. 123
+3. 123
+4. 123
+5. 123
+6. 

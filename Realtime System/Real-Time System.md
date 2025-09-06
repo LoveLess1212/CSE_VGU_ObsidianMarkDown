@@ -153,7 +153,7 @@
 	* A job is non-preemptable if it must run to completion once started
 		* Many preemptable jobs have periods during which they cannot be preempted, for example when accessing certain resources
 	* The ability to preempt a job impacts the scheduling algorithm
-	* The context switch time is the time taken to switch between jobs
+	* The [[context switch]] time is the time taken to switch between jobs
 		* Forms an overhead that must be accounted for when scheduling jobs
 * *Response to missing deadline can vary*
 * Some jobs have optional parts, that can be omitted to save time(at expense of a poorer quality result)

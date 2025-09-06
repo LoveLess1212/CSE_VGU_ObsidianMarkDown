@@ -12,8 +12,8 @@
 ## Inodes bitmap: 
 * Contain a list of all inodes with the information, whether the [[inode]] is occupied
 ## Inodes
-* Contain the inodes with the [[metadata]]
-	* Every file and every directory is represented by at least a single [[inode]], which contains the [[metadata]]
+* Contain the inodes with the [[OPERATING SYS/metadata]]
+	* Every file and every directory is represented by at least a single [[inode]], which contains the [[OPERATING SYS/metadata]]
 ## Data
 * Contains the contents of the files and directories
 	* this is the biggest part in the file system

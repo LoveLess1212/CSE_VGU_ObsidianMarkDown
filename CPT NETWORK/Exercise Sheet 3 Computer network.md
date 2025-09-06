@@ -63,7 +63,7 @@
 # Ex 11
 1. Why do computer networks use protocols for media access control?
 	1. With Ethernet and WLAN, the network devices or stations use a shared transmission medium. Media Access Control [[Protocol]] needed to coordinate the media access to avoid collisions. 
-2. Why use Ethernet and WLAN different media access control methods?
+2. Why use Ethernet and WLAN different [[media access control methods]]?
 	1. In WLAN it is not guaranteed that all stations can detect all collisions
 	2. In Ethernet with a shared transmission medium, each participant receives transmission of all other participant.
 3. How do ethernet devices react, when they detect a collision?

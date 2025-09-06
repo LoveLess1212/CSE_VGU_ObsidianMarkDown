@@ -4,9 +4,9 @@
 
 
 **If a process switches into the state running or from the state running to another state, the [[Dispatcher]] needs to**
-> Back up the [[context]] of the executed process in the [[Process control block]]
+> Back up the [[OPERATING SYS/context]] of the executed process in the [[Process control block]]
 > Assign the CPU to another process
-> import the [[context]] of the process, which will be executed next, from it's [[Process control block]]
+> import the [[OPERATING SYS/context]] of the process, which will be executed next, from it's [[Process control block]]
 
 **the [[system idle process]]**
 > Windows operating systems since Windows NT ensure that the CPU is assigned to a process at any time

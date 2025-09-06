@@ -47,4 +47,20 @@ Furthermore, we received module register form for a lot of module that we are no
 7.6 Provision of academic certificates and other documents has been accurate:
 * The scholarship money was reduced after applied for the scholarship.
 
+1. Initialize a variable (`point`) to 0. This variable will store the index of the first year when the user's savings exceed their money needs.
+2. Iterate over the years left in the user's life. For each year:
+    1. Calculate the difference between the savings and the money needed for the year and store it in the corresponding element of the `FreedomPoint` array.
+    2. If the difference is greater than 0, set `point` to the current index and break the loop.
+3. Return the age at which the user reaches their financial freedom point by adding `point` to the user's current age.
 
+
+Dear Dr. Le Lam Son  
+  
+I hope this email finds you well and that you are having a great semester. I am writing to remind you of my request for a letter of recommendation for the Scholarship at IST Austria. The deadline for submitting the letter is February 15, 2024.I am very interested in this program and a LoR is a must for the application.  
+  
+The resume and the process of application are attached to the previous email with the title: "Letter of Recommendation Request". I
+
+If you need any additional information from me to support your writing process, please don't hesitate to contact me.
+
+I appreciate your time and attention, and I apologize for any inconvenience this may cause you. I understand that you are very busy and I am grateful for your support.  
+Thank you very much for your help and guidance,

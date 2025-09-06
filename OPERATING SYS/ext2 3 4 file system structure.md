@@ -1,6 +1,6 @@
 #### the [[clusters]] of the file system are combined to block groups of the same size
 	* the information about the [[metadata]] and free [[clusters]] of each block group are maintained in the respective block group
-#### Benefit of block groups (When using HDDs!): Inodes ([[metadata]]) are physically located close to the [[clusters]], they address
+#### Benefit of block groups (When using HDDs!): Inodes ([[OPERATING SYS/metadata]]) are physically located close to the [[clusters]], they address
 	* This reduces seek times and the degree of fragmentation
 	* When using flash storage, the posistion of the data in the individual memory cells is irrelevant for the performance
 ## Structure

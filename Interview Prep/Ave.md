@@ -1,0 +1,8 @@
+1. Định hướng phát triển của mình trong thời gian gần sẽ là phát triển trở thành senior backend Engineer hoặc Full-stack engineer, cụ thể thì sẽ tuỳ vào nhu cầu của công ty cũng như tự cân nhắc về khả năng của mình sau thời gian làm việc.
+2. Công việc intern trước đó của mình chỉ có hợp đồng 10 tuần và công ty không có nhu cầu tuyển thêm fresher hoặc junior vị trí tương tự, công việc teaching assistant hiện tại của mình cũng không ổn định và mới hết hợp đồng cho các môn hiện tại. - Lý do mình muốn xin vào AvePoint vì mình cảm thấy profile của mình hợp với những gì công ty yêu cầu, và Avepoint là một công ty đầu ngành, có thể giúp mình phát triển nhiều trong thời gian đầu mình bước vào ngành.
+3. Mình xin không trả lời câu hỏi này và mình không nghĩ câu trả lời này liên quan hay phản ánh hiệu suất công việc của mình.
+4. Mức lương mình mong muốn là 10-15 triệu một tháng cho vị trí junior. Tuy nhiên, mình chấp nhận việc lương mình sẽ thấp hơn con số này trong thời gian đầu nhận việc.
+5. Về kỹ năng giao tiếp tiếng anh thì chương trình đại học của mình là chương trình 4 năm dạy toàn bộ bằng tiếng anh, cùng với 6 tháng học bổng trao đổi ở Đức hệ tiếng anh, về bằng cấp thì gần nhất mình được 6.5 IELTS.
+6. mình có thể onboard trong vòng 2-3 tuần sau khi nhận, do mình cần thuê nhà ở Đà Nẵng.
+7. Mình đã gửi cho bạn giấy chứng nhận tốt nghiệp ở trên rồi ạ.
+8. Mình đã hoàn thành chương trình học.

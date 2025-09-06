@@ -13,4 +13,20 @@
 * Process
 * Data
 # 
+> software architecture is actually depend on how you like it or not 
+> just pick them and decide their characteristic
+
+* Availability
+* Reliability
+* Testability
+* Scalability
+* Security
+* Agility
+* Fault Tolerane
+* Elasticity
+* Recoverability
+* Performance 
+* 
+
+
 #CES

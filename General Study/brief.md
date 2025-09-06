@@ -78,3 +78,16 @@ Result - Discussion
 Conclusion, limit, further research
 Citation
 
+The Roles of Traditional Dishes in Cultural Celebration and Symbolism
+
+In more Collectivist Vietnam, dishes like bánh Tét symbolize the nation itself and are deeply rooted in daily cultural factors reflecting regionalCollectivism like anxiety over rice harvests, gender roles and Particularism in ingredients (Avieli, 2005). Bánh chưng similarly holds significant meaning representing generations of Vietnamese Collectivist cultural heritage.
+
+Culinary pedagogy highlightsCollectivism in transmitting values intergenerationally via dishes carrying symbolic Universalism tied to celebrations like Tet. Bánh chưng embodies symbols of prosperity, abundance and good luck during Tet (Asian Network Exchange, 2024).
+
+In higher Individualist Germany, Christmas tradition emphasizes Collectivism through communal baking and enjoying various symbolic cookies and regional dishes. Stollen symbolizes the universal Christmas narrative through its shape while Christstollen reflects German Particularism.
+
+Traditional dishes in both cultures play a unifying role fostering Collectivism. Family members exhibit strong Collectivism coming together to prepare and consume dishes that strengthen communal bonds during celebrations (Asian Network Exchange, 2024).
+
+Distinct regional variations further characterize Vietnam and Germany's culinary landscapes. In Vietnam, the north-south rice availability Particularism is evident preferences like bánh chưng in the north vs bánh tét reflecting ingredient differences.
+
+Similarly, German regions have own dishes reflecting local Particularisms for ingredients and celebrating traditions, such as Christmas goose in Bavaria and roast carp in the Rhineland. Traditional dishes thus act as carriers of Symbolic Universal meanings while representing cultural Particularisms through ingredients and celebration associations between the more Collectivist Vietnamese culture and higher Individualist German culture.

@@ -1,5 +1,3 @@
-
-
 ## Diff forms of communication
  Connectionless comm
 		- Analogous to a mailbox

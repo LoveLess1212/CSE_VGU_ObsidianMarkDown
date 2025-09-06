@@ -1,0 +1,6 @@
+---
+tags:
+  - BLOCKCHAIN
+  - Thesis
+---
+* When users sends a [[Cardano Transaction|transaction]] to the Cardano network that uses a script, this inflicts some strain of computation on the validation of that [[Cardano Transaction|transaction]]. This strain is expressed in the abstract execution units and validators need to be compensated for these calculations. If such a [[Cardano Transaction|transaction]] is successful, the [[Cardano Transaction|transaction]] costs that come from the inputs cover these validation costs. But if the [[Cardano Transaction|transaction]] fails by incorrect executing of the script, these [[Cardano Transaction|transaction]] inputs cannot cover these fees since they are not spendable without correct  execution of the script. This, while the [[validator]] did perform a calculation. To cover for this, the creator of the [[Cardano Transaction|transaction]] also attaches a collateral to the [[Cardano Transaction|transaction]] for it to be even considered for validation. This unspent [[Cardano Transaction|transaction]] output is only consumed when the validation of the script execution fails.

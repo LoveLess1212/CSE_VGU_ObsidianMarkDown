@@ -41,21 +41,3 @@ In case of Sierpinski triangle: mass when scale by $\frac{1}{2}$ is $\frac{1}{3}
 	- level: must
 
 #WebDev 
-
-1. Q
-	1. 4/23
-	2. 19/32
-	3. 1
-	4. 23/35
-	5. 4/11
-	6. 4/35
-2. Q
-	1. 0.074088
-	2. 0.1554
-3. Q
-	1. 1/26
-	2. 1/2
-	3. 1/2
-	4. 0
-	5. 1/13
-	6. 1/3
